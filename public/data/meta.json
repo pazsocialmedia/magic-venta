@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-17T12:58:02.549Z",
+  "generatedAt": "2026-08-17T18:55:26.492Z",
   "cotizacion": {
     "usdToUyu": 42,
     "fuente": "BROU (uy.dolarapi.com)",
     "fecha": "2026-08-17",
     "stale": false
   },
-  "totalCartas": 2128,
-  "totalUnidades": 2544,
-  "conPrecio": 2128,
+  "totalCartas": 2062,
+  "totalUnidades": 2458,
+  "conPrecio": 2062,
   "sinPrecio": 0
 }
