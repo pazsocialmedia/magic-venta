@@ -1,6 +1,6 @@
 {
-  "_comment": "Ultima cotizacion USD->UYU obtenida con exito. El build la actualiza cuando consigue una fresca; si todas las fuentes fallan, reusa esta y la marca como desactualizada. El valor inicial es un placeholder razonable hasta la primera corrida exitosa.",
-  "usdToUyu": 41.0,
-  "fuente": "placeholder",
+  "_comment": "Ultima cotizacion USD->UYU obtenida con exito. Actualizado por el build.",
+  "usdToUyu": 42,
+  "fuente": "BROU (uy.dolarapi.com)",
   "fecha": "2026-08-16"
 }
