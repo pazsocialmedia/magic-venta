@@ -3,6 +3,8 @@
   "sheetId": "1I2Ncct3bLKkI76wYFCxPFsHYvVhPy2cR4Mc2AyLUgQY",
   "sheetRange": "Sheet1",
   "configTab": "Config",
+  "minPriceUsd": 1,
+  "minPriceRarities": ["rare", "mythic", "special", "bonus"],
   "columns": {
     "name": "Name",
     "color": "Color",

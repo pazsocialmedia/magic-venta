@@ -116,8 +116,13 @@ async function main() {
   const cotizacion = await getCotizacion();
   const rate = cotizacion.usdToUyu;
 
+  // Piso de precio: rarezas valiosas (rare/mythic/promo) no bajan de minPriceUsd.
+  const minPrice = Number(cfg.minPriceUsd) || 0;
+  const minPriceRarities = new Set(cfg.minPriceRarities || []);
+
   const cards = [];
   const sinPrecio = [];
+  let pisadas = 0;
 
   for (const r of rows) {
     const enr = scry.get(r.scryfallId) || {};
@@ -149,6 +154,10 @@ async function main() {
         collectorNumber: r.collectorNumber, foil: r.foil, scryfallId: r.scryfallId,
         motivo: 'Card Kingdom no lo lista para ese scryfall_id + foil',
       });
+    } else if (minPrice > 0 && priceUsd < minPrice && minPriceRarities.has(r.rarity)) {
+      // Rare/mythic/promo por debajo del piso -> se llevan al minimo.
+      priceUsd = minPrice;
+      pisadas++;
     }
 
     const priceUyu = (priceUsd != null && rate) ? Math.round(priceUsd * rate) : null;
@@ -197,6 +206,7 @@ async function main() {
 
   console.log('\nListo:');
   console.log(`  cartas: ${meta.totalCartas} (${meta.conPrecio} con precio, ${meta.sinPrecio} sin precio)`);
+  if (pisadas) console.log(`  precio pisado a US$ ${minPrice} (rare/mythic/promo): ${pisadas} cartas`);
   console.log(`  unidades: ${meta.totalUnidades}`);
   if (cotizacion.usdToUyu) {
     console.log(`  cotizacion: 1 USD = ${cotizacion.usdToUyu} UYU (${cotizacion.fuente}${cotizacion.stale ? ', DESACTUALIZADA' : ''})`);

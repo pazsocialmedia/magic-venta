@@ -12,6 +12,7 @@ const state = {
     mana: '', foil: '', min: null, max: null, instock: false,
   },
   sort: 'name',
+  group: 'none',
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -70,7 +71,9 @@ function cardColorKeys(card) {
 }
 
 function buildFilterOptions() {
-  const sets = [...new Set(state.cards.map((c) => c.setName).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
+  // Sets: solo los que tienen al menos una carta disponible (stock > 0).
+  const disponibles = state.cards.filter((c) => c.quantity > 0);
+  const sets = [...new Set(disponibles.map((c) => c.setName).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
   const rarities = [...new Set(state.cards.map((c) => c.rarity).filter(Boolean))].sort();
   const tipos = [...new Set(state.cards.map((c) => c.tipo).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'es'));
   const manas = [...new Set(state.cards.map((c) => c.manaValue).filter((v) => v != null))].sort((a, b) => a - b);
@@ -131,14 +134,28 @@ function passesFilters(card) {
   return true;
 }
 
+const COLOR_ORDER = { W: 0, U: 1, B: 2, R: 3, G: 4 };
+const RARITY_ORDER = { common: 0, uncommon: 1, rare: 2, mythic: 3, special: 4, bonus: 5 };
+function colorRank(card) {
+  const cols = cardColorKeys(card);
+  if (cols.length > 1) return 5;          // multicolor
+  const c = cols[0];
+  if (c === 'C') return 6;                // incoloro
+  return COLOR_ORDER[c] ?? 7;
+}
+const rarityRank = (card) => RARITY_ORDER[card.rarity] ?? 9;
+const byName = (a, b) => a.name.localeCompare(b.name, 'es');
+
 function sortCards(cards) {
   const s = state.sort;
   const arr = [...cards];
-  const price = (c) => (c.priceUsd == null ? Infinity : c.priceUsd);
-  if (s === 'price-asc') arr.sort((a, b) => price(a) - price(b));
-  else if (s === 'price-desc') arr.sort((a, b) => (b.priceUsd ?? -1) - (a.priceUsd ?? -1));
-  else if (s === 'set') arr.sort((a, b) => (a.setName || '').localeCompare(b.setName || '', 'es') || a.name.localeCompare(b.name, 'es'));
-  else arr.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+  if (s === 'price-asc') arr.sort((a, b) => (a.priceUsd ?? Infinity) - (b.priceUsd ?? Infinity) || byName(a, b));
+  else if (s === 'price-desc') arr.sort((a, b) => (b.priceUsd ?? -1) - (a.priceUsd ?? -1) || byName(a, b));
+  else if (s === 'set') arr.sort((a, b) => (a.setName || '').localeCompare(b.setName || '', 'es') || byName(a, b));
+  else if (s === 'color') arr.sort((a, b) => colorRank(a) - colorRank(b) || byName(a, b));
+  else if (s === 'mana') arr.sort((a, b) => (a.manaValue ?? Infinity) - (b.manaValue ?? Infinity) || byName(a, b));
+  else if (s === 'rarity') arr.sort((a, b) => rarityRank(a) - rarityRank(b) || byName(a, b));
+  else arr.sort(byName);
   return arr;
 }
 
@@ -148,11 +165,71 @@ function render() {
   $('#result-count').textContent = `${filtered.length} carta${filtered.length === 1 ? '' : 's'}`;
   $('#empty').hidden = filtered.length > 0;
 
-  const grid = $('#grid');
-  grid.innerHTML = '';
+  const mount = $('#grid');
+  mount.innerHTML = '';
+  if (state.group === 'none') {
+    mount.appendChild(gridOf(filtered));
+    return;
+  }
+  for (const g of groupCards(filtered, state.group)) {
+    const section = document.createElement('section');
+    section.className = 'group';
+    const header = document.createElement('div');
+    header.className = 'group-header';
+    header.innerHTML = `<span>${escapeHtml(g.label)}</span><span class="count">${g.cards.length}</span>`;
+    section.appendChild(header);
+    section.appendChild(gridOf(g.cards));
+    mount.appendChild(section);
+  }
+}
+
+function gridOf(cards) {
+  const grid = document.createElement('div');
+  grid.className = 'grid';
   const frag = document.createDocumentFragment();
-  filtered.forEach((card) => frag.appendChild(renderCard(card)));
+  cards.forEach((card) => frag.appendChild(renderCard(card)));
   grid.appendChild(frag);
+  return grid;
+}
+
+const TIPO_ORDER = ['Criatura', 'Planeswalker', 'Instantaneo', 'Conjuro', 'Artefacto', 'Encantamiento', 'Batalla', 'Tierra', 'Otro'];
+const COLOR_GROUP = { W: ['Blanco', 0], U: ['Azul', 1], B: ['Negro', 2], R: ['Rojo', 3], G: ['Verde', 4] };
+
+function groupInfo(card, by) {
+  if (by === 'tipo') {
+    const t = card.tipo || 'Otro';
+    return { key: t, label: t, order: TIPO_ORDER.indexOf(t) >= 0 ? TIPO_ORDER.indexOf(t) : 99 };
+  }
+  if (by === 'color') {
+    const cols = cardColorKeys(card);
+    if (cols.length > 1) return { key: 'multi', label: 'Multicolor', order: 5 };
+    if (cols[0] === 'C') return { key: 'C', label: 'Incoloro', order: 6 };
+    const [name, ord] = COLOR_GROUP[cols[0]] || ['Otro', 7];
+    return { key: cols[0], label: name, order: ord };
+  }
+  if (by === 'set') {
+    const s = card.setName || card.setCode || '—';
+    return { key: s, label: s, order: 0 };
+  }
+  if (by === 'rarity') {
+    return { key: card.rarity || '—', label: capitalize(card.rarity || '—'), order: rarityRank(card) };
+  }
+  if (by === 'mana') {
+    const mv = card.manaValue;
+    if (mv == null) return { key: 'x', label: 'Sin coste', order: 999 };
+    return { key: String(mv), label: `Maná ${mv}`, order: mv };
+  }
+  return { key: '—', label: '—', order: 0 };
+}
+
+function groupCards(cards, by) {
+  const map = new Map();
+  for (const c of cards) {
+    const { key, label, order } = groupInfo(c, by);
+    if (!map.has(key)) map.set(key, { label, order, cards: [] });
+    map.get(key).cards.push(c);
+  }
+  return [...map.values()].sort((a, b) => (a.order - b.order) || a.label.localeCompare(b.label, 'es'));
 }
 
 function renderCard(card) {
@@ -295,11 +372,22 @@ function orderText() {
   const lines = [];
   if (state.config.whatsappMessagePrefix) lines.push(state.config.whatsappMessagePrefix, '');
   entries.forEach(({ card, qty }) => {
-    lines.push(`• ${qty}x ${card.name}${card.foil ? ' (Foil)' : ''} — ${card.setName || card.setCode} — US$ ${card.priceUsd.toFixed(2)} c/u = US$ ${(card.priceUsd * qty).toFixed(2)}`);
+    const set = card.setName || card.setCode;
+    const foil = card.foil ? ' (Foil)' : '';
+    if (qty === 1) {
+      lines.push(`• ${card.name}${foil} — ${set} — US$ ${card.priceUsd.toFixed(2)}`);
+    } else {
+      lines.push(`• ${qty}x ${card.name}${foil} — ${set} — US$ ${card.priceUsd.toFixed(2)} c/u = US$ ${(card.priceUsd * qty).toFixed(2)}`);
+    }
   });
-  lines.push('');
-  lines.push(`Total: US$ ${t.usd.toFixed(2)}${t.uyu != null ? ` (aprox. $U ${Math.round(t.uyu).toLocaleString('es-UY')})` : ''}`);
-  lines.push(`(${t.units} carta${t.units === 1 ? '' : 's'})`);
+  // Solo mostramos el total cuando hay mas de una carta distinta (si es una sola, la linea ya lo dice).
+  if (entries.length > 1) {
+    lines.push('');
+    let total = `Total: US$ ${t.usd.toFixed(2)}`;
+    if (t.uyu != null) total += ` (aprox. $U ${Math.round(t.uyu).toLocaleString('es-UY')})`;
+    total += ` — ${t.units} carta${t.units === 1 ? '' : 's'}`;
+    lines.push(total);
+  }
   return lines.join('\n');
 }
 
@@ -336,6 +424,11 @@ function openLightbox(src, alt) {
 function bindEvents() {
   $('#search').addEventListener('input', (e) => { state.filters.search = e.target.value.trim().toLowerCase(); render(); });
   $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
+  $('#group').addEventListener('change', (e) => { state.group = e.target.value; render(); });
+
+  const toTop = $('#to-top');
+  window.addEventListener('scroll', () => { toTop.hidden = window.scrollY < 400; }, { passive: true });
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   $('#toggle-filters').addEventListener('click', (e) => {
     const panel = $('#filters');
     panel.hidden = !panel.hidden;

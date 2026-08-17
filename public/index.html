@@ -28,6 +28,20 @@
             <option value="price-asc">Precio ↑</option>
             <option value="price-desc">Precio ↓</option>
             <option value="set">Set</option>
+            <option value="color">Color</option>
+            <option value="mana">Maná</option>
+            <option value="rarity">Rareza</option>
+          </select>
+        </label>
+        <label class="sort">
+          Agrupar:
+          <select id="group">
+            <option value="none">Sin grupo</option>
+            <option value="tipo">Tipo</option>
+            <option value="color">Color</option>
+            <option value="set">Set</option>
+            <option value="rarity">Rareza</option>
+            <option value="mana">Maná</option>
           </select>
         </label>
       </div>
@@ -61,7 +75,7 @@
       </div>
 
       <p id="result-count" class="result-count"></p>
-      <div id="grid" class="grid"></div>
+      <div id="grid" class="results"></div>
       <p id="empty" class="empty" hidden>No hay cartas que coincidan con los filtros.</p>
     </section>
 
@@ -85,6 +99,8 @@
   <div id="lightbox" class="lightbox" hidden>
     <img id="lightbox-img" alt="" />
   </div>
+
+  <button id="to-top" class="to-top" type="button" aria-label="Volver arriba" hidden>↑</button>
 
   <button id="cart-fab" class="cart-fab" type="button" aria-label="Ver pedido">
     🛒 <span id="fab-count" class="badge">0</span>
