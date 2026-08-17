@@ -1,0 +1,8 @@
+{
+  "_comment": "Precios cargados a mano para cartas que Card Kingdom no lista (promos, ediciones raras, cartas muy nuevas). La clave es el Scryfall ID; podes distinguir foil con ':foil'. El precio es en USD (NM). El build respeta estos valores antes de buscar en Card Kingdom.",
+  "_ejemplo": {
+    "0000aaaa-bbbb-cccc-dddd-000000000000": 12.5,
+    "0000aaaa-bbbb-cccc-dddd-000000000000:foil": 30.0
+  },
+  "prices": {}
+}

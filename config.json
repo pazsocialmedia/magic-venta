@@ -1,0 +1,18 @@
+{
+  "_comment": "Configuracion del BUILD (no secreta). El ID de la hoja y el rango. La credencial del service account va aparte (env GOOGLE_SERVICE_ACCOUNT_JSON o archivo service-account.json local), nunca aca.",
+  "sheetId": "1I2Ncct3bLKkI76wYFCxPFsHYvVhPy2cR4Mc2AyLUgQY",
+  "sheetRange": "Sheet1",
+  "configTab": "Config",
+  "columns": {
+    "name": "Name",
+    "color": "Color",
+    "manaValue": "Mana value",
+    "setCode": "Set code",
+    "setName": "Set name",
+    "collectorNumber": "Collector number",
+    "foil": "Foil",
+    "rarity": "Rarity",
+    "quantity": "Quantity",
+    "scryfallId": "Scryfall ID"
+  }
+}

@@ -1,0 +1,64 @@
+name: Actualizar datos y publicar
+
+on:
+  schedule:
+    # Diario 12:00 UTC (09:00 en Uruguay). Ajustar si queres otro horario.
+    - cron: '0 12 * * *'
+  workflow_dispatch: {}   # boton manual "Run workflow"
+
+# Un solo run a la vez.
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # para commitear el cache de cotizacion y los JSON generados
+  pages: write      # para publicar en GitHub Pages
+  id-token: write   # requerido por deploy-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Generar datos (Sheet + Scryfall + Card Kingdom + cotizacion)
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          # Opcional: forzar la cotizacion manualmente descomentando el secret.
+          # COTIZACION_USD_UYU: ${{ secrets.COTIZACION_USD_UYU }}
+        run: npm run build
+
+      - name: Commitear datos actualizados
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/*.json data/cotizacion-cache.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios en los datos."
+          else
+            git commit -m "chore: actualizar datos ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto (carpeta public)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Publicar en GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,7 @@
+node_modules/
+# Credenciales del service account de Google: NUNCA subir al repo.
+# En local se leen de este archivo; en GitHub Actions, de un Secret.
+service-account.json
+*.local.json
+.env
+.DS_Store

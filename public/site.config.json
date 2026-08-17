@@ -1,0 +1,8 @@
+{
+  "_comment": "Configuracion visible del sitio (publica). Se puede editar sin tocar codigo.",
+  "storeName": "Coleccion Magic en venta",
+  "tagline": "Elegi tus cartas y mandame el pedido por WhatsApp",
+  "whatsappNumber": "59897969058",
+  "whatsappMessagePrefix": "Hola! Te dejo mi pedido de cartas:",
+  "showUyu": true
+}
