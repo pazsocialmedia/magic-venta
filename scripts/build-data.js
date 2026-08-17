@@ -64,7 +64,7 @@ async function main() {
   const siteOverride = {};
   if (titles.includes(cfg.configTab)) {
     const kv = await readKeyValueTab(cfg.sheetId, cfg.configTab);
-    const allowed = ['storeName', 'tagline', 'whatsappNumber', 'whatsappMessagePrefix'];
+    const allowed = ['storeName', 'tagline', 'whatsappNumber', 'whatsappMessagePrefix', 'reservationNotice'];
     for (const k of allowed) if (kv[k]) siteOverride[k] = kv[k];
     if (kv.showUyu != null && kv.showUyu !== '') {
       siteOverride.showUyu = !/^(no|false|0)$/i.test(String(kv.showUyu).trim());

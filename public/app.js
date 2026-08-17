@@ -13,6 +13,7 @@ const state = {
   },
   sort: 'name',
   group: 'none',
+  liveStock: false,
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -31,6 +32,7 @@ async function init() {
     state.cards = data.cards || [];
     state.meta = data.meta || null;
     state.byId = new Map(state.cards.map((c) => [c.id, c]));
+    await applyLiveStock();
   } catch (e) {
     $('#grid').innerHTML = `<p class="empty">No pude cargar el catalogo (${e.message}).</p>`;
     return;
@@ -57,10 +59,79 @@ function applyConfig() {
       txt += ` · 1 USD = ${cot.usdToUyu} UYU (${cot.fuente || 'cotizacion'}`;
       txt += cot.stale ? ', desactualizada)' : ')';
     }
+    if (state.liveStock) txt += ' · stock en vivo ✓';
     const el = $('#update-info');
     el.textContent = txt;
     if (cot && cot.stale) el.classList.add('stale');
   }
+}
+
+// ---------- stock en vivo (lee el Sheet publicado como CSV) ----------
+async function applyLiveStock() {
+  const url = state.config.liveStockCsvUrl;
+  if (!url) return;
+  const live = await fetchLiveStock(url);
+  // Solo aplicamos si parseo una cantidad razonable de filas (evita romper todo si el fetch falla a medias).
+  if (live && live.size >= state.cards.length * 0.5) {
+    for (const c of state.cards) c.quantity = live.get(c.id) ?? 0;
+    state.liveStock = true;
+  }
+}
+
+async function fetchLiveStock(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 5000);
+  try {
+    const res = await fetch(url, { signal: ctrl.signal, cache: 'no-store' });
+    if (!res.ok) return null;
+    const rows = parseCSV(await res.text());
+    if (rows.length < 2) return null;
+    const header = rows[0].map((h) => String(h).trim().toLowerCase());
+    const iSid = header.indexOf('scryfall id');
+    const iQty = header.indexOf('quantity');
+    const iFoil = header.indexOf('foil');
+    if (iSid < 0 || iQty < 0) return null;
+    const map = new Map();
+    for (let r = 1; r < rows.length; r++) {
+      const sid = String(rows[r][iSid] ?? '').trim();
+      if (!sid) continue;
+      const foilVal = iFoil >= 0 ? String(rows[r][iFoil] ?? '') : '';
+      const foil = !['', 'normal', 'no', 'false', '0', 'nonfoil', 'non-foil'].includes(foilVal.trim().toLowerCase());
+      const qty = Math.max(0, Math.trunc(Number(rows[r][iQty]) || 0));
+      const key = `${sid}:${foil ? 'f' : 'n'}`;
+      map.set(key, (map.get(key) || 0) + qty);
+    }
+    return map;
+  } catch {
+    return null; // CORS, timeout, offline: seguimos con el stock del build.
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Parser CSV minimo que respeta comillas (los nombres tienen comas y "//").
+function parseCSV(text) {
+  const rows = [];
+  let row = [], field = '', inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; }
+        else inQuotes = false;
+      } else field += c;
+    } else if (c === '"') {
+      inQuotes = true;
+    } else if (c === ',') {
+      row.push(field); field = '';
+    } else if (c === '\n') {
+      row.push(field); rows.push(row); row = []; field = '';
+    } else if (c !== '\r') {
+      field += c;
+    }
+  }
+  if (field !== '' || row.length) { row.push(field); rows.push(row); }
+  return rows;
 }
 
 // ---------- filtros ----------
@@ -450,6 +521,28 @@ function bindEvents() {
 
   const lb = $('#lightbox');
   lb.addEventListener('click', () => { lb.hidden = true; });
+
+  // Aviso de reserva antes de abrir WhatsApp.
+  const wa = $('#whatsapp-order');
+  const modal = $('#reserve-modal');
+  wa.addEventListener('click', (e) => {
+    const href = wa.getAttribute('href');
+    if (!href || wa.getAttribute('aria-disabled') === 'true') { e.preventDefault(); return; }
+    const notice = state.config.reservationNotice;
+    if (notice) {
+      e.preventDefault();
+      $('#reserve-text').textContent = notice;
+      modal.dataset.href = href;
+      modal.hidden = false;
+    }
+  });
+  $('#reserve-confirm').addEventListener('click', () => {
+    const href = modal.dataset.href;
+    modal.hidden = true;
+    if (href) window.open(href, '_blank', 'noopener');
+  });
+  $('#reserve-cancel').addEventListener('click', () => { modal.hidden = true; });
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.hidden = true; });
 }
 
 function clearFilters() {

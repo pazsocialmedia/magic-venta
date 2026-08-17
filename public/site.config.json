@@ -4,5 +4,8 @@
   "tagline": "Elegi tus cartas y mandame el pedido por WhatsApp",
   "whatsappNumber": "59897969058",
   "whatsappMessagePrefix": "Hola! Te dejo mi pedido de cartas:",
-  "showUyu": true
+  "showUyu": true,
+  "reservationNotice": "Importante: la reserva no es efectiva hasta realizar la transferencia bancaria y enviar el comprobante.",
+  "_liveStockComment": "URL CSV del Sheet para leer el stock en vivo. Vacio = usa el stock del ultimo build. Requiere que el Sheet este compartido como 'Cualquiera con el enlace: Lector'.",
+  "liveStockCsvUrl": "https://docs.google.com/spreadsheets/d/1I2Ncct3bLKkI76wYFCxPFsHYvVhPy2cR4Mc2AyLUgQY/gviz/tq?tqx=out:csv&gid=2102280583"
 }
