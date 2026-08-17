@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T00:49:55.705Z",
+    "generatedAt": "2026-08-17T12:58:02.549Z",
     "cotizacion": {
       "usdToUyu": 42,
       "fuente": "BROU (uy.dolarapi.com)",
-      "fecha": "2026-08-16",
+      "fecha": "2026-08-17",
       "stale": false
     },
-    "totalCartas": 2129,
-    "totalUnidades": 2545,
-    "conPrecio": 2129,
+    "totalCartas": 2128,
+    "totalUnidades": 2544,
+    "conPrecio": 2128,
     "sinPrecio": 0
   },
   "cards": [
@@ -2567,8 +2567,8 @@
       "image": "https://cards.scryfall.io/normal/front/2/5/2549b70a-6bd0-4c9b-96b7-4ab775a30cd3.jpg?1783916220",
       "imageSmall": "https://cards.scryfall.io/small/front/2/5/2549b70a-6bd0-4c9b-96b7-4ab775a30cd3.jpg?1783916220",
       "scryfallUri": "https://scryfall.com/card/ltr/285/assault-on-osgiliath?utm_source=api",
-      "priceUsd": 1.49,
-      "priceUyu": 63,
+      "priceUsd": 1.79,
+      "priceUyu": 75,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/assault-on-osgiliath"
     },
@@ -7456,8 +7456,8 @@
       "image": "https://cards.scryfall.io/normal/front/0/6/066383e2-55c2-433f-8665-f0fd22dfa3f0.jpg?1783931173",
       "imageSmall": "https://cards.scryfall.io/small/front/0/6/066383e2-55c2-433f-8665-f0fd22dfa3f0.jpg?1783931173",
       "scryfallUri": "https://scryfall.com/card/c20/148/comet-storm?utm_source=api",
-      "priceUsd": 4.49,
-      "priceUyu": 189,
+      "priceUsd": 3.99,
+      "priceUyu": 168,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2020/comet-storm"
     },
@@ -24569,30 +24569,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-variants/legolas-master-archer-0435-borderless"
     },
     {
-      "id": "851c0167-04ba-4d15-b0fa-c211bd8826f1:n",
-      "name": "Legolas's Quick Reflexes",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "493",
-      "color": [
-        "G"
-      ],
-      "manaValue": 1,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "851c0167-04ba-4d15-b0fa-c211bd8826f1",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/8/5/851c0167-04ba-4d15-b0fa-c211bd8826f1.jpg?1783914204",
-      "imageSmall": "https://cards.scryfall.io/small/front/8/5/851c0167-04ba-4d15-b0fa-c211bd8826f1.jpg?1783914204",
-      "scryfallUri": "https://scryfall.com/card/ltc/493/legolass-quick-reflexes?utm_source=api",
-      "priceUsd": 64.99,
-      "priceUyu": 2730,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks-variants/legolass-quick-reflexes-0493-borderless"
-    },
-    {
       "id": "3b46aacf-b31a-4380-9e4b-82795fbaba3b:n",
       "name": "Lembas",
       "setCode": "LTR",
@@ -35155,10 +35131,10 @@
       "image": "https://cards.scryfall.io/normal/front/1/b/1bd3fa8a-6c50-4f7f-9ae3-0810eec5e3db.jpg?1783916330",
       "imageSmall": "https://cards.scryfall.io/small/front/1/b/1bd3fa8a-6c50-4f7f-9ae3-0810eec5e3db.jpg?1783916330",
       "scryfallUri": "https://scryfall.com/card/ltr/26/reprieve?utm_source=api",
-      "priceUsd": 4.49,
-      "priceUyu": 189,
+      "priceUsd": 2.99,
+      "priceUyu": 126,
       "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-variants/reprieve-0477-scroll-showcase-silver-foil-foil"
+      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/reprieve-foil"
     },
     {
       "id": "ada14bc8-4549-4a73-8cbb-9a43698deb36:n",
@@ -35612,8 +35588,8 @@
       "image": "https://cards.scryfall.io/normal/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724",
       "imageSmall": "https://cards.scryfall.io/small/front/b/8/b832abcc-9ffd-47bf-827a-01b303c610ee.jpg?1783930724",
       "scryfallUri": "https://scryfall.com/card/m21/63/rewind?utm_source=api",
-      "priceUsd": 0.69,
-      "priceUyu": 29,
+      "priceUsd": 0.79,
+      "priceUyu": 33,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/core-set-2021/rewind"
     },
@@ -35760,8 +35736,8 @@
       "image": "https://cards.scryfall.io/normal/front/7/8/78660bdf-0edb-4fd0-a737-1c95f93cced1.jpg?1783921405",
       "imageSmall": "https://cards.scryfall.io/small/front/7/8/78660bdf-0edb-4fd0-a737-1c95f93cced1.jpg?1783921405",
       "scryfallUri": "https://scryfall.com/card/dmc/166/rienne-angel-of-rebirth?utm_source=api",
-      "priceUsd": 1.79,
-      "priceUyu": 75,
+      "priceUsd": 1.99,
+      "priceUyu": 84,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-united-commander-decks/rienne-angel-of-rebirth"
     },
@@ -41167,8 +41143,8 @@
       "image": "https://cards.scryfall.io/normal/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1783915088",
       "imageSmall": "https://cards.scryfall.io/small/front/9/4/940e8bb7-0251-4fac-945c-d83618c10447.jpg?1783915088",
       "scryfallUri": "https://scryfall.com/card/woe/150/song-of-totentanz?utm_source=api",
-      "priceUsd": 2.99,
-      "priceUyu": 126,
+      "priceUsd": 3.49,
+      "priceUyu": 147,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine/song-of-totentanz"
     },
@@ -44937,8 +44913,8 @@
       "image": "https://cards.scryfall.io/normal/front/2/a/2a3fcfdc-f2cf-42d8-8bb4-7308bc12746e.jpg?1783916023",
       "imageSmall": "https://cards.scryfall.io/small/front/2/a/2a3fcfdc-f2cf-42d8-8bb4-7308bc12746e.jpg?1783916023",
       "scryfallUri": "https://scryfall.com/card/ltc/46/the-balrog-of-moria?utm_source=api",
-      "priceUsd": 1.49,
-      "priceUyu": 63,
+      "priceUsd": 1.79,
+      "priceUyu": 75,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/the-balrog-of-moria"
     },
