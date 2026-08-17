@@ -19,6 +19,27 @@ function chunk(arr, size) {
   return out;
 }
 
+// POST con reintentos ante rate-limit (429) o error temporal (503).
+// Respeta el header Retry-After; si no viene, espera 65s en 429 (lo que pide
+// Scryfall) o backoff exponencial en 503.
+async function postWithRetry(url, body, maxRetries = 6) {
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, { method: 'POST', headers: HEADERS, body });
+    if (res.ok) return res;
+    if ((res.status === 429 || res.status === 503) && attempt < maxRetries) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const waitMs = Number.isFinite(retryAfter) && retryAfter > 0
+        ? retryAfter * 1000
+        : (res.status === 429 ? 65000 : Math.min(60000, 2000 * 2 ** attempt));
+      console.warn(`  Scryfall ${res.status}: espero ${Math.round(waitMs / 1000)}s y reintento (${attempt + 1}/${maxRetries})`);
+      await sleep(waitMs);
+      continue;
+    }
+    const text = await res.text();
+    throw new Error(`Scryfall ${res.status}: ${text.slice(0, 200)}`);
+  }
+}
+
 // Deriva un tipo primario en espanol desde el type_line de Scryfall.
 export function tipoDesdeTypeLine(typeLine = '') {
   const t = String(typeLine).toLowerCase();
@@ -55,16 +76,11 @@ export async function enrichByScryfallIds(ids) {
 
   for (let b = 0; b < batches.length; b++) {
     const identifiers = batches[b].map((id) => ({ id }));
-    const res = await fetch(COLLECTION_URL, {
-      method: 'POST',
-      headers: HEADERS,
-      body: JSON.stringify({ identifiers }),
-    });
-    if (!res.ok) {
-      const body = await res.text();
-      throw new Error(`Scryfall ${res.status}: ${body.slice(0, 300)}`);
-    }
+    const res = await postWithRetry(COLLECTION_URL, JSON.stringify({ identifiers }));
     const data = await res.json();
+    if (batches.length > 5 && (b % 5 === 0 || b === batches.length - 1)) {
+      console.log(`  Scryfall: lote ${b + 1}/${batches.length}`);
+    }
     for (const card of data.data || []) {
       const typeLine = card.type_line || '';
       result.set(card.id, {
@@ -77,7 +93,7 @@ export async function enrichByScryfallIds(ids) {
     for (const nf of data.not_found || []) {
       if (nf?.id) console.warn(`  Scryfall no encontro id ${nf.id}`);
     }
-    if (b < batches.length - 1) await sleep(120);
+    if (b < batches.length - 1) await sleep(250);
   }
   return result;
 }

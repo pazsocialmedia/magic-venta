@@ -27,12 +27,25 @@ function nmQtyOf(entry) {
   return Number.isFinite(r) ? r : 0;
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 // Descarga e indexa. Devuelve { lookup(scryfallId, foil) -> {priceUsd, url, edition} | null, size }
 export async function loadCardKingdom() {
-  const res = await fetch(PRICELIST_URL, {
-    headers: { 'Accept': 'application/json', 'User-Agent': 'mtg-store/1.0' },
-  });
-  if (!res.ok) throw new Error(`Card Kingdom ${res.status}`);
+  let res;
+  for (let attempt = 0; ; attempt++) {
+    res = await fetch(PRICELIST_URL, {
+      headers: { 'Accept': 'application/json', 'User-Agent': 'mtg-store/1.0' },
+    });
+    if (res.ok) break;
+    if ((res.status === 429 || res.status === 503) && attempt < 5) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const waitMs = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : Math.min(60000, 3000 * 2 ** attempt);
+      console.warn(`  Card Kingdom ${res.status}: espero ${Math.round(waitMs / 1000)}s y reintento (${attempt + 1}/5)`);
+      await sleep(waitMs);
+      continue;
+    }
+    throw new Error(`Card Kingdom ${res.status}`);
+  }
   const json = await res.json();
 
   const entries = Array.isArray(json) ? json : (json.data || []);
