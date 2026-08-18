@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T12:59:52.889Z",
+    "generatedAt": "2026-08-18T16:12:21.770Z",
     "cotizacion": {
       "usdToUyu": 42,
       "fuente": "BROU (uy.dolarapi.com)",
       "fecha": "2026-08-18",
       "stale": false
     },
-    "totalCartas": 2062,
-    "totalUnidades": 2458,
-    "conPrecio": 2062,
+    "totalCartas": 2011,
+    "totalUnidades": 2387,
+    "conPrecio": 2011,
     "sinPrecio": 0
   },
   "cards": [
@@ -990,30 +990,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/amareth-the-lustrous"
     },
     {
-      "id": "967b5ed9-7275-4564-8bf9-2748fea2f387:n",
-      "name": "Amphin Mutineer",
-      "setCode": "TDC",
-      "setName": "Tarkir: Dragonstorm Commander",
-      "collectorNumber": "143",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "967b5ed9-7275-4564-8bf9-2748fea2f387",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Salamander Pirate",
-      "image": "https://cards.scryfall.io/normal/front/9/6/967b5ed9-7275-4564-8bf9-2748fea2f387.jpg?1783907111",
-      "imageSmall": "https://cards.scryfall.io/small/front/9/6/967b5ed9-7275-4564-8bf9-2748fea2f387.jpg?1783907111",
-      "scryfallUri": "https://scryfall.com/card/tdc/143/amphin-mutineer?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/amphin-mutineer"
-    },
-    {
       "id": "a829747f-cf9b-4d81-ba66-9f0630ed4565:n",
       "name": "An Offer You Can't Refuse",
       "setCode": "FDN",
@@ -1773,6 +1749,54 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/aetherdrift-commander-decks/arcane-sanctum"
     },
     {
+      "id": "44ff370e-b72d-4a6c-b6dd-8434820559cc:n",
+      "name": "Arcane Signet",
+      "setCode": "40K",
+      "setName": "Warhammer 40,000 Commander",
+      "collectorNumber": "227",
+      "color": [
+        "C"
+      ],
+      "manaValue": 2,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 1,
+      "scryfallId": "44ff370e-b72d-4a6c-b6dd-8434820559cc",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
+      "imageSmall": "https://cards.scryfall.io/small/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
+      "scryfallUri": "https://scryfall.com/card/40k/227/arcane-signet?utm_source=api",
+      "priceUsd": 5.99,
+      "priceUyu": 252,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/arcane-signet-227"
+    },
+    {
+      "id": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc:n",
+      "name": "Arcane Signet",
+      "setCode": "CMR",
+      "setName": "Commander Legends",
+      "collectorNumber": "297",
+      "color": [
+        "C"
+      ],
+      "manaValue": 2,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 1,
+      "scryfallId": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/e/e/ee40458c-7f3a-4fa6-976f-be1f7a336fdc.jpg?1783928764",
+      "imageSmall": "https://cards.scryfall.io/small/front/e/e/ee40458c-7f3a-4fa6-976f-be1f7a336fdc.jpg?1783928764",
+      "scryfallUri": "https://scryfall.com/card/cmr/297/arcane-signet?utm_source=api",
+      "priceUsd": 0.99,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/arcane-signet"
+    },
+    {
       "id": "4e92354d-c203-41e1-822d-8263fadd9eb3:n",
       "name": "Arcane Signet",
       "setCode": "LTC",
@@ -1819,78 +1843,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/arcane-signet"
-    },
-    {
-      "id": "44ff370e-b72d-4a6c-b6dd-8434820559cc:n",
-      "name": "Arcane Signet",
-      "setCode": "40K",
-      "setName": "Warhammer 40,000 Commander",
-      "collectorNumber": "227",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "44ff370e-b72d-4a6c-b6dd-8434820559cc",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
-      "imageSmall": "https://cards.scryfall.io/small/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
-      "scryfallUri": "https://scryfall.com/card/40k/227/arcane-signet?utm_source=api",
-      "priceUsd": 5.99,
-      "priceUyu": 252,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/arcane-signet-227"
-    },
-    {
-      "id": "049ca0ff-0ca4-44f7-b144-731cf453afa9:n",
-      "name": "Arcane Signet",
-      "setCode": "TMC",
-      "setName": "Teenage Mutant Ninja Turtles Eternal",
-      "collectorNumber": "57",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "049ca0ff-0ca4-44f7-b144-731cf453afa9",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/0/4/049ca0ff-0ca4-44f7-b144-731cf453afa9.jpg?1783904156",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/4/049ca0ff-0ca4-44f7-b144-731cf453afa9.jpg?1783904156",
-      "scryfallUri": "https://scryfall.com/card/tmc/57/arcane-signet?utm_source=api",
-      "priceUsd": 1.29,
-      "priceUyu": 54,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/arcane-signet"
-    },
-    {
-      "id": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc:n",
-      "name": "Arcane Signet",
-      "setCode": "CMR",
-      "setName": "Commander Legends",
-      "collectorNumber": "297",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "ee40458c-7f3a-4fa6-976f-be1f7a336fdc",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/e/e/ee40458c-7f3a-4fa6-976f-be1f7a336fdc.jpg?1783928764",
-      "imageSmall": "https://cards.scryfall.io/small/front/e/e/ee40458c-7f3a-4fa6-976f-be1f7a336fdc.jpg?1783928764",
-      "scryfallUri": "https://scryfall.com/card/cmr/297/arcane-signet?utm_source=api",
-      "priceUsd": 0.99,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/arcane-signet"
     },
     {
       "id": "d45ec78e-6190-46af-8057-834f5ca41ec8:n",
@@ -2114,30 +2066,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2020/artifact-mutation"
     },
     {
-      "id": "deadf867-b999-49b2-88d8-91da975a3cc5:n",
-      "name": "Artificer's Assistant",
-      "setCode": "DOM",
-      "setName": "Dominaria",
-      "collectorNumber": "44",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "deadf867-b999-49b2-88d8-91da975a3cc5",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Bird",
-      "image": "https://cards.scryfall.io/normal/front/d/e/deadf867-b999-49b2-88d8-91da975a3cc5.jpg?1783935031",
-      "imageSmall": "https://cards.scryfall.io/small/front/d/e/deadf867-b999-49b2-88d8-91da975a3cc5.jpg?1783935031",
-      "scryfallUri": "https://scryfall.com/card/dom/44/artificers-assistant?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria/artificers-assistant"
-    },
-    {
       "id": "4d4f4d41-232d-4377-be69-de590b880edb:n",
       "name": "Arwen, Weaver of Hope",
       "setCode": "LTC",
@@ -2280,30 +2208,6 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/ash-barrens"
-    },
-    {
-      "id": "e8510205-4baa-4f1c-bf64-5d931e2ddf48:n",
-      "name": "Ash Barrens",
-      "setCode": "TMC",
-      "setName": "Teenage Mutant Ninja Turtles Eternal",
-      "collectorNumber": "60",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "e8510205-4baa-4f1c-bf64-5d931e2ddf48",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
-      "imageSmall": "https://cards.scryfall.io/small/front/e/8/e8510205-4baa-4f1c-bf64-5d931e2ddf48.jpg?1783904155",
-      "scryfallUri": "https://scryfall.com/card/tmc/60/ash-barrens?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/ash-barrens"
     },
     {
       "id": "d51e6610-25b6-4d8e-92d7-c50a2ff844ff:n",
@@ -3582,7 +3486,7 @@
       "manaValue": 4,
       "rarity": "common",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "27855a38-a682-4f97-ad22-ac625e86faec",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -5069,30 +4973,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/planar-chaos/brain-gorgers"
     },
     {
-      "id": "6e86ad39-2a90-466d-b188-056216429f4e:n",
-      "name": "Brainstone",
-      "setCode": "DSC",
-      "setName": "Duskmourn: House of Horror Commander",
-      "collectorNumber": "242",
-      "color": [
-        "C"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "6e86ad39-2a90-466d-b188-056216429f4e",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/6/e/6e86ad39-2a90-466d-b188-056216429f4e.jpg?1783909587",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/e/6e86ad39-2a90-466d-b188-056216429f4e.jpg?1783909587",
-      "scryfallUri": "https://scryfall.com/card/dsc/242/brainstone?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/duskmourn-house-of-horror-commander-decks/brainstone"
-    },
-    {
       "id": "9b4fdcd5-5346-46a8-b1a4-84ddb74089e0:f",
       "name": "Brallin, Skyshark Rider",
       "setCode": "C20",
@@ -5722,30 +5602,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/kaldheim/canopy-tactician-theme-booster"
     },
     {
-      "id": "c2a85a8e-28bb-4899-a922-13a03dec844c:n",
-      "name": "Canopy Vista",
-      "setCode": "TDC",
-      "setName": "Tarkir: Dragonstorm Commander",
-      "collectorNumber": "343",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 3,
-      "scryfallId": "c2a85a8e-28bb-4899-a922-13a03dec844c",
-      "tipo": "Tierra",
-      "typeLine": "Land — Forest Plains",
-      "image": "https://cards.scryfall.io/normal/front/c/2/c2a85a8e-28bb-4899-a922-13a03dec844c.jpg?1783906999",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/2/c2a85a8e-28bb-4899-a922-13a03dec844c.jpg?1783906999",
-      "scryfallUri": "https://scryfall.com/card/tdc/343/canopy-vista?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/canopy-vista"
-    },
-    {
       "id": "8529ffd4-9dbb-4d5b-8c96-9049da5952b7:n",
       "name": "Canopy Vista",
       "setCode": "LTC",
@@ -5768,6 +5624,30 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/canopy-vista"
+    },
+    {
+      "id": "c2a85a8e-28bb-4899-a922-13a03dec844c:n",
+      "name": "Canopy Vista",
+      "setCode": "TDC",
+      "setName": "Tarkir: Dragonstorm Commander",
+      "collectorNumber": "343",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 3,
+      "scryfallId": "c2a85a8e-28bb-4899-a922-13a03dec844c",
+      "tipo": "Tierra",
+      "typeLine": "Land — Forest Plains",
+      "image": "https://cards.scryfall.io/normal/front/c/2/c2a85a8e-28bb-4899-a922-13a03dec844c.jpg?1783906999",
+      "imageSmall": "https://cards.scryfall.io/small/front/c/2/c2a85a8e-28bb-4899-a922-13a03dec844c.jpg?1783906999",
+      "scryfallUri": "https://scryfall.com/card/tdc/343/canopy-vista?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/canopy-vista"
     },
     {
       "id": "a8f0f937-5519-4d38-9fc3-46460669bb86:n",
@@ -6324,30 +6204,6 @@
       "priceUyu": 672,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/streets-of-new-capenna-commander-decks/change-of-plans"
-    },
-    {
-      "id": "67eb6ab9-d264-4ec6-9dac-3b16ee8c9ec0:n",
-      "name": "Chaos Wand",
-      "setCode": "OTC",
-      "setName": "Outlaws of Thunder Junction Commander",
-      "collectorNumber": "254",
-      "color": [
-        "C"
-      ],
-      "manaValue": 3,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "67eb6ab9-d264-4ec6-9dac-3b16ee8c9ec0",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/6/7/67eb6ab9-d264-4ec6-9dac-3b16ee8c9ec0.jpg?1783911890",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/7/67eb6ab9-d264-4ec6-9dac-3b16ee8c9ec0.jpg?1783911890",
-      "scryfallUri": "https://scryfall.com/card/otc/254/chaos-wand?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/chaos-wand"
     },
     {
       "id": "65ae241c-8955-4c97-8be6-7356fbee2195:n",
@@ -7150,78 +7006,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2020/comet-storm"
     },
     {
-      "id": "5306a95e-fb18-463d-81a9-3c3b8121fc94:n",
-      "name": "Command Tower",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "301",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "5306a95e-fb18-463d-81a9-3c3b8121fc94",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/5/3/5306a95e-fb18-463d-81a9-3c3b8121fc94.jpg?1783915885",
-      "imageSmall": "https://cards.scryfall.io/small/front/5/3/5306a95e-fb18-463d-81a9-3c3b8121fc94.jpg?1783915885",
-      "scryfallUri": "https://scryfall.com/card/ltc/301/command-tower?utm_source=api",
-      "priceUsd": 1.29,
-      "priceUyu": 54,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/command-tower"
-    },
-    {
-      "id": "27e36832-09ca-4070-8511-94580014c3ed:n",
-      "name": "Command Tower",
-      "setCode": "M3C",
-      "setName": "Modern Horizons 3 Commander",
-      "collectorNumber": "331",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 4,
-      "scryfallId": "27e36832-09ca-4070-8511-94580014c3ed",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/2/7/27e36832-09ca-4070-8511-94580014c3ed.jpg?1783911337",
-      "imageSmall": "https://cards.scryfall.io/small/front/2/7/27e36832-09ca-4070-8511-94580014c3ed.jpg?1783911337",
-      "scryfallUri": "https://scryfall.com/card/m3c/331/command-tower?utm_source=api",
-      "priceUsd": 0.79,
-      "priceUyu": 33,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/command-tower"
-    },
-    {
-      "id": "148abd94-e752-4394-abce-21d594318b41:n",
-      "name": "Command Tower",
-      "setCode": "CMR",
-      "setName": "Commander Legends",
-      "collectorNumber": "705",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "148abd94-e752-4394-abce-21d594318b41",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/1/4/148abd94-e752-4394-abce-21d594318b41.jpg?1783928597",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/4/148abd94-e752-4394-abce-21d594318b41.jpg?1783928597",
-      "scryfallUri": "https://scryfall.com/card/cmr/705/command-tower?utm_source=api",
-      "priceUsd": 5.99,
-      "priceUyu": 252,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-variants/command-tower-extended-art"
-    },
-    {
       "id": "7eafe88e-ab38-442c-b147-bb01cc81178d:n",
       "name": "Command Tower",
       "setCode": "CLB",
@@ -7268,30 +7052,6 @@
       "priceUyu": 33,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/command-tower-270"
-    },
-    {
-      "id": "24179418-d92c-43eb-a8f6-b8ea83f8c80f:n",
-      "name": "Command Tower",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "659",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "24179418-d92c-43eb-a8f6-b8ea83f8c80f",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/2/4/24179418-d92c-43eb-a8f6-b8ea83f8c80f.jpg?1783915505",
-      "imageSmall": "https://cards.scryfall.io/small/front/2/4/24179418-d92c-43eb-a8f6-b8ea83f8c80f.jpg?1783915505",
-      "scryfallUri": "https://scryfall.com/card/cmm/659/command-tower?utm_source=api",
-      "priceUsd": 2.99,
-      "priceUyu": 126,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters-variants/command-tower-borderless"
     },
     {
       "id": "77a679dd-220c-4fbe-a158-a8db57f55b86:n",
@@ -7366,6 +7126,78 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2019/command-tower"
     },
     {
+      "id": "5306a95e-fb18-463d-81a9-3c3b8121fc94:n",
+      "name": "Command Tower",
+      "setCode": "LTC",
+      "setName": "Tales of Middle-earth Commander",
+      "collectorNumber": "301",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "5306a95e-fb18-463d-81a9-3c3b8121fc94",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/5/3/5306a95e-fb18-463d-81a9-3c3b8121fc94.jpg?1783915885",
+      "imageSmall": "https://cards.scryfall.io/small/front/5/3/5306a95e-fb18-463d-81a9-3c3b8121fc94.jpg?1783915885",
+      "scryfallUri": "https://scryfall.com/card/ltc/301/command-tower?utm_source=api",
+      "priceUsd": 1.29,
+      "priceUyu": 54,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/command-tower"
+    },
+    {
+      "id": "148abd94-e752-4394-abce-21d594318b41:n",
+      "name": "Command Tower",
+      "setCode": "CMR",
+      "setName": "Commander Legends",
+      "collectorNumber": "705",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "148abd94-e752-4394-abce-21d594318b41",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/1/4/148abd94-e752-4394-abce-21d594318b41.jpg?1783928597",
+      "imageSmall": "https://cards.scryfall.io/small/front/1/4/148abd94-e752-4394-abce-21d594318b41.jpg?1783928597",
+      "scryfallUri": "https://scryfall.com/card/cmr/705/command-tower?utm_source=api",
+      "priceUsd": 5.99,
+      "priceUyu": 252,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-variants/command-tower-extended-art"
+    },
+    {
+      "id": "27e36832-09ca-4070-8511-94580014c3ed:n",
+      "name": "Command Tower",
+      "setCode": "M3C",
+      "setName": "Modern Horizons 3 Commander",
+      "collectorNumber": "331",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 4,
+      "scryfallId": "27e36832-09ca-4070-8511-94580014c3ed",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/2/7/27e36832-09ca-4070-8511-94580014c3ed.jpg?1783911337",
+      "imageSmall": "https://cards.scryfall.io/small/front/2/7/27e36832-09ca-4070-8511-94580014c3ed.jpg?1783911337",
+      "scryfallUri": "https://scryfall.com/card/m3c/331/command-tower?utm_source=api",
+      "priceUsd": 0.79,
+      "priceUyu": 33,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/command-tower"
+    },
+    {
       "id": "19992dbd-7a6a-43d3-b1db-01716b2eed27:n",
       "name": "Commander's Plate",
       "setCode": "CMR",
@@ -7388,30 +7220,6 @@
       "priceUyu": 2310,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/commanders-plate"
-    },
-    {
-      "id": "6620b4a3-fa33-4bd7-9180-314919d8ea2a:n",
-      "name": "Commander's Sphere",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "276",
-      "color": [
-        "C"
-      ],
-      "manaValue": 3,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 4,
-      "scryfallId": "6620b4a3-fa33-4bd7-9180-314919d8ea2a",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/6/6/6620b4a3-fa33-4bd7-9180-314919d8ea2a.jpg?1783915899",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/6/6620b4a3-fa33-4bd7-9180-314919d8ea2a.jpg?1783915899",
-      "scryfallUri": "https://scryfall.com/card/ltc/276/commanders-sphere?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/commanders-sphere"
     },
     {
       "id": "516692b8-fbaf-4698-864b-5363aafc95b9:n",
@@ -7460,6 +7268,30 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-united-commander-decks/commanders-sphere"
+    },
+    {
+      "id": "6620b4a3-fa33-4bd7-9180-314919d8ea2a:n",
+      "name": "Commander's Sphere",
+      "setCode": "LTC",
+      "setName": "Tales of Middle-earth Commander",
+      "collectorNumber": "276",
+      "color": [
+        "C"
+      ],
+      "manaValue": 3,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 4,
+      "scryfallId": "6620b4a3-fa33-4bd7-9180-314919d8ea2a",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/6/6/6620b4a3-fa33-4bd7-9180-314919d8ea2a.jpg?1783915899",
+      "imageSmall": "https://cards.scryfall.io/small/front/6/6/6620b4a3-fa33-4bd7-9180-314919d8ea2a.jpg?1783915899",
+      "scryfallUri": "https://scryfall.com/card/ltc/276/commanders-sphere?utm_source=api",
+      "priceUsd": 0.39,
+      "priceUyu": 16,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/commanders-sphere"
     },
     {
       "id": "c6d36786-6e36-4a9b-97ad-ad7d9d2b8d92:n",
@@ -7947,30 +7779,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered/counterspell-foil"
     },
     {
-      "id": "4f616706-ec97-4923-bb1e-11a69fbaa1f8:n",
-      "name": "Counterspell",
-      "setCode": "DSC",
-      "setName": "Duskmourn: House of Horror Commander",
-      "collectorNumber": "114",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "4f616706-ec97-4923-bb1e-11a69fbaa1f8",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630",
-      "imageSmall": "https://cards.scryfall.io/small/front/4/f/4f616706-ec97-4923-bb1e-11a69fbaa1f8.jpg?1783909630",
-      "scryfallUri": "https://scryfall.com/card/dsc/114/counterspell?utm_source=api",
-      "priceUsd": 3.99,
-      "priceUyu": 168,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/duskmourn-house-of-horror-commander-decks/counterspell"
-    },
-    {
       "id": "5e6ce397-e888-46a6-aa1f-0954df95179f:f",
       "name": "Courageous Resolve",
       "setCode": "LTC",
@@ -8281,30 +8089,6 @@
       "priceUyu": 29,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lost-caverns-of-ixalan-commander-decks/crumbling-necropolis"
-    },
-    {
-      "id": "7bfb33b6-e2bf-498f-8c58-ae21a840cf75:n",
-      "name": "Cryogen Relic",
-      "setCode": "EOE",
-      "setName": "Edge of Eternities",
-      "collectorNumber": "52",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "7bfb33b6-e2bf-498f-8c58-ae21a840cf75",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/7/b/7bfb33b6-e2bf-498f-8c58-ae21a840cf75.jpg?1783905984",
-      "imageSmall": "https://cards.scryfall.io/small/front/7/b/7bfb33b6-e2bf-498f-8c58-ae21a840cf75.jpg?1783905984",
-      "scryfallUri": "https://scryfall.com/card/eoe/52/cryogen-relic?utm_source=api",
-      "priceUsd": 0.69,
-      "priceUyu": 29,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/edge-of-eternities/cryogen-relic"
     },
     {
       "id": "f1c94279-1836-4d7f-a53a-615147407a8b:n",
@@ -8630,7 +8414,7 @@
       "manaValue": 2,
       "rarity": "common",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "f2a0e716-22b7-4a5e-9b7a-d4a806ee7427",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -9001,30 +8785,6 @@
       "priceUyu": 16,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/darksteel-ingot"
-    },
-    {
-      "id": "9c1bac5f-c41a-49f0-94b0-79653b6fa67a:n",
-      "name": "Darksteel Pendant",
-      "setCode": "DST",
-      "setName": "Darksteel",
-      "collectorNumber": "113",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "9c1bac5f-c41a-49f0-94b0-79653b6fa67a",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/9/c/9c1bac5f-c41a-49f0-94b0-79653b6fa67a.jpg?1783944426",
-      "imageSmall": "https://cards.scryfall.io/small/front/9/c/9c1bac5f-c41a-49f0-94b0-79653b6fa67a.jpg?1783944426",
-      "scryfallUri": "https://scryfall.com/card/dst/113/darksteel-pendant?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/darksteel/darksteel-pendant"
     },
     {
       "id": "3f99fb1e-99a6-4c83-98eb-7bff23996a7f:n",
@@ -9536,30 +9296,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/decree-of-pain"
-    },
-    {
-      "id": "801d2482-f35a-4155-9925-335d5f4adfd9:n",
-      "name": "Deep Analysis",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "188",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "801d2482-f35a-4155-9925-335d5f4adfd9",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/8/0/801d2482-f35a-4155-9925-335d5f4adfd9.jpg?1783915950",
-      "imageSmall": "https://cards.scryfall.io/small/front/8/0/801d2482-f35a-4155-9925-335d5f4adfd9.jpg?1783915950",
-      "scryfallUri": "https://scryfall.com/card/ltc/188/deep-analysis?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/deep-analysis"
     },
     {
       "id": "69c68c95-b788-43b1-9f22-1b22c5a00b25:f",
@@ -10129,7 +9865,7 @@
       "manaValue": 2,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 4,
+      "quantity": 3,
       "scryfallId": "588c6217-c460-417e-98bf-de5475780baf",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -10167,30 +9903,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/murders-at-karlov-manor-commander-decks/disorder-in-the-court"
     },
     {
-      "id": "c7a401b8-29fb-46ef-a663-427f66724d5c:n",
-      "name": "Displacer Kitten",
-      "setCode": "CLB",
-      "setName": "Commander Legends: Battle for Baldur's Gate",
-      "collectorNumber": "63",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "c7a401b8-29fb-46ef-a663-427f66724d5c",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Cat Beast",
-      "image": "https://cards.scryfall.io/normal/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/7/c7a401b8-29fb-46ef-a663-427f66724d5c.jpg?1783922795",
-      "scryfallUri": "https://scryfall.com/card/clb/63/displacer-kitten?utm_source=api",
-      "priceUsd": 32.99,
-      "priceUyu": 1386,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/displacer-kitten"
-    },
-    {
       "id": "a14d56d5-8c5b-4e98-92c3-a87cf5c036d2:n",
       "name": "Display of Power",
       "setCode": "LTR",
@@ -10213,30 +9925,6 @@
       "priceUyu": 126,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-variants/display-of-power-0570-scroll-showcase"
-    },
-    {
-      "id": "053ab598-06a4-43ae-b9fd-c291bd05642c:n",
-      "name": "Disruption Protocol",
-      "setCode": "NEO",
-      "setName": "Kamigawa: Neon Dynasty",
-      "collectorNumber": "51",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "053ab598-06a4-43ae-b9fd-c291bd05642c",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/0/5/053ab598-06a4-43ae-b9fd-c291bd05642c.jpg?1783923908",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/5/053ab598-06a4-43ae-b9fd-c291bd05642c.jpg?1783923908",
-      "scryfallUri": "https://scryfall.com/card/neo/51/disruption-protocol?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/kamigawa-neon-dynasty/disruption-protocol"
     },
     {
       "id": "d0ad2acb-073b-4a98-be8c-2ea39ca85496:n",
@@ -11249,7 +10937,7 @@
       "manaValue": 2,
       "rarity": "common",
       "foil": false,
-      "quantity": 4,
+      "quantity": 3,
       "scryfallId": "b4ab47ce-a6dd-4839-ab41-053c5c5de768",
       "tipo": "Encantamiento",
       "typeLine": "Enchantment — Aura",
@@ -11404,30 +11092,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/innistrad/elder-of-laurels"
-    },
-    {
-      "id": "f8ecdf65-c6e6-4dac-899b-55cd80242629:n",
-      "name": "Eldrazi Monument",
-      "setCode": "M3C",
-      "setName": "Modern Horizons 3 Commander",
-      "collectorNumber": "290",
-      "color": [
-        "C"
-      ],
-      "manaValue": 5,
-      "rarity": "mythic",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "f8ecdf65-c6e6-4dac-899b-55cd80242629",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/f/8/f8ecdf65-c6e6-4dac-899b-55cd80242629.jpg?1783911350",
-      "imageSmall": "https://cards.scryfall.io/small/front/f/8/f8ecdf65-c6e6-4dac-899b-55cd80242629.jpg?1783911350",
-      "scryfallUri": "https://scryfall.com/card/m3c/290/eldrazi-monument?utm_source=api",
-      "priceUsd": 10.99,
-      "priceUyu": 462,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/eldrazi-monument"
     },
     {
       "id": "1ead9586-2b40-498e-90d3-c8a3aa81ef92:n",
@@ -12837,54 +12501,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/exocrine"
     },
     {
-      "id": "a3120b65-f021-467e-bd9f-27329134a743:n",
-      "name": "Exotic Orchard",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "307",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 3,
-      "scryfallId": "a3120b65-f021-467e-bd9f-27329134a743",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/a/3/a3120b65-f021-467e-bd9f-27329134a743.jpg?1783915879",
-      "imageSmall": "https://cards.scryfall.io/small/front/a/3/a3120b65-f021-467e-bd9f-27329134a743.jpg?1783915879",
-      "scryfallUri": "https://scryfall.com/card/ltc/307/exotic-orchard?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/exotic-orchard"
-    },
-    {
-      "id": "dc0a1bc1-ba94-4494-a196-5363fde85194:n",
-      "name": "Exotic Orchard",
-      "setCode": "ECC",
-      "setName": "Lorwyn Eclipsed Commander",
-      "collectorNumber": "148",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 6,
-      "scryfallId": "dc0a1bc1-ba94-4494-a196-5363fde85194",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/d/c/dc0a1bc1-ba94-4494-a196-5363fde85194.jpg?1783904533",
-      "imageSmall": "https://cards.scryfall.io/small/front/d/c/dc0a1bc1-ba94-4494-a196-5363fde85194.jpg?1783904533",
-      "scryfallUri": "https://scryfall.com/card/ecc/148/exotic-orchard?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/lorwyn-eclipsed-commander-decks/exotic-orchard"
-    },
-    {
       "id": "ec9c7011-694b-4705-b85c-bf4edf26e437:n",
       "name": "Exotic Orchard",
       "setCode": "40K",
@@ -12931,6 +12547,54 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-united-commander-decks/exotic-orchard"
+    },
+    {
+      "id": "a3120b65-f021-467e-bd9f-27329134a743:n",
+      "name": "Exotic Orchard",
+      "setCode": "LTC",
+      "setName": "Tales of Middle-earth Commander",
+      "collectorNumber": "307",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 3,
+      "scryfallId": "a3120b65-f021-467e-bd9f-27329134a743",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/a/3/a3120b65-f021-467e-bd9f-27329134a743.jpg?1783915879",
+      "imageSmall": "https://cards.scryfall.io/small/front/a/3/a3120b65-f021-467e-bd9f-27329134a743.jpg?1783915879",
+      "scryfallUri": "https://scryfall.com/card/ltc/307/exotic-orchard?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/exotic-orchard"
+    },
+    {
+      "id": "dc0a1bc1-ba94-4494-a196-5363fde85194:n",
+      "name": "Exotic Orchard",
+      "setCode": "ECC",
+      "setName": "Lorwyn Eclipsed Commander",
+      "collectorNumber": "148",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 6,
+      "scryfallId": "dc0a1bc1-ba94-4494-a196-5363fde85194",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/d/c/dc0a1bc1-ba94-4494-a196-5363fde85194.jpg?1783904533",
+      "imageSmall": "https://cards.scryfall.io/small/front/d/c/dc0a1bc1-ba94-4494-a196-5363fde85194.jpg?1783904533",
+      "scryfallUri": "https://scryfall.com/card/ecc/148/exotic-orchard?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/lorwyn-eclipsed-commander-decks/exotic-orchard"
     },
     {
       "id": "bbdf088c-3067-4df2-92f7-95fed5b304b8:n",
@@ -13343,30 +13007,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine-commander-decks/fact-or-fiction"
     },
     {
-      "id": "04588d2f-9e90-4f83-b85e-67e4bc222a62:n",
-      "name": "Fact or Fiction",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "91",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "04588d2f-9e90-4f83-b85e-67e4bc222a62",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1783915701",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1783915701",
-      "scryfallUri": "https://scryfall.com/card/cmm/91/fact-or-fiction?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/fact-or-fiction"
-    },
-    {
       "id": "c90e7c13-d73d-421a-b2cc-4ff7fde05af7:n",
       "name": "Fact or Fiction",
       "setCode": "EMA",
@@ -13413,6 +13053,30 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/fact-or-fiction"
+    },
+    {
+      "id": "04588d2f-9e90-4f83-b85e-67e4bc222a62:n",
+      "name": "Fact or Fiction",
+      "setCode": "CMM",
+      "setName": "Commander Masters",
+      "collectorNumber": "91",
+      "color": [
+        "U"
+      ],
+      "manaValue": 4,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "04588d2f-9e90-4f83-b85e-67e4bc222a62",
+      "tipo": "Instantaneo",
+      "typeLine": "Instant",
+      "image": "https://cards.scryfall.io/normal/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1783915701",
+      "imageSmall": "https://cards.scryfall.io/small/front/0/4/04588d2f-9e90-4f83-b85e-67e4bc222a62.jpg?1783915701",
+      "scryfallUri": "https://scryfall.com/card/cmm/91/fact-or-fiction?utm_source=api",
+      "priceUsd": 0.39,
+      "priceUyu": 16,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/fact-or-fiction"
     },
     {
       "id": "4d7fc4e6-e229-431f-8f8d-8464fb410724:n",
@@ -14502,30 +14166,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/fell-the-mighty"
     },
     {
-      "id": "385b9f5e-81dd-49f6-a644-59d53245e3dc:n",
-      "name": "Fellwar Stone",
-      "setCode": "SOC",
-      "setName": "Secrets of Strixhaven Commander",
-      "collectorNumber": "347",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "385b9f5e-81dd-49f6-a644-59d53245e3dc",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/3/8/385b9f5e-81dd-49f6-a644-59d53245e3dc.jpg?1783903740",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/8/385b9f5e-81dd-49f6-a644-59d53245e3dc.jpg?1783903740",
-      "scryfallUri": "https://scryfall.com/card/soc/347/fellwar-stone?utm_source=api",
-      "priceUsd": 1.49,
-      "priceUyu": 63,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/fellwar-stone"
-    },
-    {
       "id": "aa15d3b3-c709-4d9b-a9ec-c8d68f805ebf:n",
       "name": "Fellwar Stone",
       "setCode": "CMM",
@@ -14548,6 +14188,30 @@
       "priceUyu": 273,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters-variants/fellwar-stone-borderless"
+    },
+    {
+      "id": "385b9f5e-81dd-49f6-a644-59d53245e3dc:n",
+      "name": "Fellwar Stone",
+      "setCode": "SOC",
+      "setName": "Secrets of Strixhaven Commander",
+      "collectorNumber": "347",
+      "color": [
+        "C"
+      ],
+      "manaValue": 2,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "385b9f5e-81dd-49f6-a644-59d53245e3dc",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/3/8/385b9f5e-81dd-49f6-a644-59d53245e3dc.jpg?1783903740",
+      "imageSmall": "https://cards.scryfall.io/small/front/3/8/385b9f5e-81dd-49f6-a644-59d53245e3dc.jpg?1783903740",
+      "scryfallUri": "https://scryfall.com/card/soc/347/fellwar-stone?utm_source=api",
+      "priceUsd": 1.49,
+      "priceUyu": 63,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/fellwar-stone"
     },
     {
       "id": "1d770a59-1c54-407e-9c58-8d8b6f44c90a:n",
@@ -15181,30 +14845,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/2014-core-set/fog"
     },
     {
-      "id": "18748b1d-4161-482c-a726-8762b4c1819c:n",
-      "name": "Fog Bank",
-      "setCode": "FDN",
-      "setName": "Foundations",
-      "collectorNumber": "591",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "18748b1d-4161-482c-a726-8762b4c1819c",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Wall",
-      "image": "https://cards.scryfall.io/normal/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1783908934",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/8/18748b1d-4161-482c-a726-8762b4c1819c.jpg?1783908934",
-      "scryfallUri": "https://scryfall.com/card/fdn/591/fog-bank?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/foundations/fog-bank"
-    },
-    {
       "id": "52ecb9ef-37bc-4327-9ae6-bcef6e2fdb94:n",
       "name": "Follow the Bodies",
       "setCode": "MKC",
@@ -15541,30 +15181,6 @@
       "priceUyu": 117,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/urzas-legacy/frantic-search"
-    },
-    {
-      "id": "a4a2a4ce-a44b-480b-b1a2-94fb2514c082:n",
-      "name": "Frantic Search",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "632",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "a4a2a4ce-a44b-480b-b1a2-94fb2514c082",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/a/4/a4a2a4ce-a44b-480b-b1a2-94fb2514c082.jpg?1783915513",
-      "imageSmall": "https://cards.scryfall.io/small/front/a/4/a4a2a4ce-a44b-480b-b1a2-94fb2514c082.jpg?1783915513",
-      "scryfallUri": "https://scryfall.com/card/cmm/632/frantic-search?utm_source=api",
-      "priceUsd": 1.99,
-      "priceUyu": 84,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters-variants/frantic-search-borderless"
     },
     {
       "id": "e9ecee02-12c0-4aed-a679-41bce95e0cda:n",
@@ -16470,30 +16086,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lost-caverns-of-ixalan-commander-decks/geier-reach-sanitarium"
     },
     {
-      "id": "44d4fcbc-15b2-4370-a267-bc2c63ba2aa5:n",
-      "name": "Geist of the Archives",
-      "setCode": "EMN",
-      "setName": "Eldritch Moon",
-      "collectorNumber": "62",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "44d4fcbc-15b2-4370-a267-bc2c63ba2aa5",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Spirit",
-      "image": "https://cards.scryfall.io/normal/front/4/4/44d4fcbc-15b2-4370-a267-bc2c63ba2aa5.jpg?1783937497",
-      "imageSmall": "https://cards.scryfall.io/small/front/4/4/44d4fcbc-15b2-4370-a267-bc2c63ba2aa5.jpg?1783937497",
-      "scryfallUri": "https://scryfall.com/card/emn/62/geist-of-the-archives?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/eldritch-moon/geist-of-the-archives"
-    },
-    {
       "id": "600dca0f-5964-45e7-86df-f16a5b4a0106:n",
       "name": "General Ferrous Rokiric",
       "setCode": "MH2",
@@ -17268,30 +16860,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/ravnica-allegiance/glass-of-the-guildpact"
-    },
-    {
-      "id": "8375ad0c-5d8d-47f6-bd04-ffd59fa9c0be:f",
-      "name": "Glen Elendra's Answer",
-      "setCode": "ECL",
-      "setName": "Lorwyn Eclipsed",
-      "collectorNumber": "306",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "mythic",
-      "foil": true,
-      "quantity": 1,
-      "scryfallId": "8375ad0c-5d8d-47f6-bd04-ffd59fa9c0be",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/8/3/8375ad0c-5d8d-47f6-bd04-ffd59fa9c0be.jpg?1783904379",
-      "imageSmall": "https://cards.scryfall.io/small/front/8/3/8375ad0c-5d8d-47f6-bd04-ffd59fa9c0be.jpg?1783904379",
-      "scryfallUri": "https://scryfall.com/card/ecl/306/glen-elendras-answer?utm_source=api",
-      "priceUsd": 4.99,
-      "priceUyu": 210,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/lorwyn-eclipsed-variants/glen-elendras-answer-0306-showcase-foil"
     },
     {
       "id": "c54a2256-673d-4d93-9e1d-7790bf254881:n",
@@ -18762,7 +18330,7 @@
       "manaValue": 0,
       "rarity": "common",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "63eb18e0-c723-4de4-8498-c5362c75b2b4",
       "tipo": "Tierra",
       "typeLine": "Land",
@@ -19866,30 +19434,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/high-score"
     },
     {
-      "id": "babd2248-5517-4b7b-a159-9a1f7b5583c8:n",
-      "name": "High Tide",
-      "setCode": "DMR",
-      "setName": "Dominaria Remastered",
-      "collectorNumber": "54",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "babd2248-5517-4b7b-a159-9a1f7b5583c8",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/b/a/babd2248-5517-4b7b-a159-9a1f7b5583c8.jpg?1783918492",
-      "imageSmall": "https://cards.scryfall.io/small/front/b/a/babd2248-5517-4b7b-a159-9a1f7b5583c8.jpg?1783918492",
-      "scryfallUri": "https://scryfall.com/card/dmr/54/high-tide?utm_source=api",
-      "priceUsd": 0.99,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered/high-tide"
-    },
-    {
       "id": "1f2400cc-987b-49de-8ac7-3d4b12c4200a:n",
       "name": "High Tide",
       "setCode": "DMR",
@@ -19912,6 +19456,30 @@
       "priceUyu": 96,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered-variants/high-tide-borderless"
+    },
+    {
+      "id": "babd2248-5517-4b7b-a159-9a1f7b5583c8:n",
+      "name": "High Tide",
+      "setCode": "DMR",
+      "setName": "Dominaria Remastered",
+      "collectorNumber": "54",
+      "color": [
+        "U"
+      ],
+      "manaValue": 1,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "babd2248-5517-4b7b-a159-9a1f7b5583c8",
+      "tipo": "Instantaneo",
+      "typeLine": "Instant",
+      "image": "https://cards.scryfall.io/normal/front/b/a/babd2248-5517-4b7b-a159-9a1f7b5583c8.jpg?1783918492",
+      "imageSmall": "https://cards.scryfall.io/small/front/b/a/babd2248-5517-4b7b-a159-9a1f7b5583c8.jpg?1783918492",
+      "scryfallUri": "https://scryfall.com/card/dmr/54/high-tide?utm_source=api",
+      "priceUsd": 0.99,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered/high-tide"
     },
     {
       "id": "860f4304-38f1-4c2f-a122-2590619522fd:f",
@@ -20619,30 +20187,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine/ice-out"
     },
     {
-      "id": "4af9f237-f338-4335-843b-d352c01b73e5:n",
-      "name": "Ice Out",
-      "setCode": "PW23",
-      "setName": "Wizards Play Network 2023",
-      "collectorNumber": "7",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "4af9f237-f338-4335-843b-d352c01b73e5",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/4/a/4af9f237-f338-4335-843b-d352c01b73e5.jpg?1783915138",
-      "imageSmall": "https://cards.scryfall.io/small/front/4/a/4af9f237-f338-4335-843b-d352c01b73e5.jpg?1783915138",
-      "scryfallUri": "https://scryfall.com/card/pw23/7/ice-out?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/promotional/ice-out-wpn-promo"
-    },
-    {
       "id": "34603c3e-1078-48ca-9350-7d90c290b721:n",
       "name": "Ichor Slick",
       "setCode": "FUT",
@@ -20944,7 +20488,7 @@
       "manaValue": 2,
       "rarity": "common",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "3ec50625-5e14-4fd0-9a96-86f195342695",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -23503,30 +23047,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/languish"
     },
     {
-      "id": "c2303f11-2c82-44d5-893a-8e71dece7746:n",
-      "name": "Lantern of the Lost",
-      "setCode": "VOW",
-      "setName": "Innistrad: Crimson Vow",
-      "collectorNumber": "259",
-      "color": [
-        "C"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "c2303f11-2c82-44d5-893a-8e71dece7746",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/c/2/c2303f11-2c82-44d5-893a-8e71dece7746.jpg?1783924785",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/2/c2303f11-2c82-44d5-893a-8e71dece7746.jpg?1783924785",
-      "scryfallUri": "https://scryfall.com/card/vow/259/lantern-of-the-lost?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/innistrad-crimson-vow/lantern-of-the-lost"
-    },
-    {
       "id": "66763118-6a1e-465a-bfe0-6fe18c419875:n",
       "name": "Last March of the Ents",
       "setCode": "LTR",
@@ -24109,30 +23629,6 @@
       "priceUyu": 252,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/lightning-greaves"
-    },
-    {
-      "id": "3008696b-f89c-40e3-a437-22c95ef337fb:n",
-      "name": "Lightning Greaves",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "281",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "3008696b-f89c-40e3-a437-22c95ef337fb",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact — Equipment",
-      "image": "https://cards.scryfall.io/normal/front/3/0/3008696b-f89c-40e3-a437-22c95ef337fb.jpg?1783915895",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/0/3008696b-f89c-40e3-a437-22c95ef337fb.jpg?1783915895",
-      "scryfallUri": "https://scryfall.com/card/ltc/281/lightning-greaves?utm_source=api",
-      "priceUsd": 7.49,
-      "priceUyu": 315,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/lightning-greaves"
     },
     {
       "id": "cc025f33-1b1a-428f-be28-02d7580a0a8a:n",
@@ -25488,7 +24984,7 @@
       "manaValue": 2,
       "rarity": "common",
       "foil": false,
-      "quantity": 5,
+      "quantity": 4,
       "scryfallId": "179236d9-6fe2-4db6-bdfb-f851e8d531a2",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -25523,30 +25019,6 @@
       "priceUyu": 189,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/shadowmoor/mana-reflection"
-    },
-    {
-      "id": "200c8e3d-c53b-40c7-a29a-fccc1281bfc6:n",
-      "name": "Mana Sculpt",
-      "setCode": "SOS",
-      "setName": "Secrets of Strixhaven",
-      "collectorNumber": "57",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "200c8e3d-c53b-40c7-a29a-fccc1281bfc6",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/2/0/200c8e3d-c53b-40c7-a29a-fccc1281bfc6.jpg?1783903688",
-      "imageSmall": "https://cards.scryfall.io/small/front/2/0/200c8e3d-c53b-40c7-a29a-fccc1281bfc6.jpg?1783903688",
-      "scryfallUri": "https://scryfall.com/card/sos/57/mana-sculpt?utm_source=api",
-      "priceUsd": 1.29,
-      "priceUyu": 54,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven/mana-sculpt"
     },
     {
       "id": "7769f0ce-b31b-4cb5-8635-2b9b70114180:n",
@@ -25842,30 +25314,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/kaldheim-commander-decks/masked-admirers"
     },
     {
-      "id": "3efa70d4-d58c-4a43-bc4e-ffa9a91b0e5e:n",
-      "name": "Master of Etherium",
-      "setCode": "MOC",
-      "setName": "March of the Machine Commander",
-      "collectorNumber": "226",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "3efa70d4-d58c-4a43-bc4e-ffa9a91b0e5e",
-      "tipo": "Criatura",
-      "typeLine": "Artifact Creature — Vedalken Wizard",
-      "image": "https://cards.scryfall.io/normal/front/3/e/3efa70d4-d58c-4a43-bc4e-ffa9a91b0e5e.jpg?1783917169",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/e/3efa70d4-d58c-4a43-bc4e-ffa9a91b0e5e.jpg?1783917169",
-      "scryfallUri": "https://scryfall.com/card/moc/226/master-of-etherium?utm_source=api",
-      "priceUsd": 1.29,
-      "priceUyu": 54,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/march-of-the-machine-commander-decks/master-of-etherium"
-    },
-    {
       "id": "a95749cf-dd12-4bca-a74d-01301b9b76df:n",
       "name": "Master Warcraft",
       "setCode": "CMR",
@@ -26013,30 +25461,6 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/melek-izzet-paragon"
-    },
-    {
-      "id": "60b9db96-a6ab-454b-99a7-910ef77560d7:n",
-      "name": "Meloku the Clouded Mirror",
-      "setCode": "CMR",
-      "setName": "Commander Legends",
-      "collectorNumber": "399",
-      "color": [
-        "U"
-      ],
-      "manaValue": 5,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "60b9db96-a6ab-454b-99a7-910ef77560d7",
-      "tipo": "Criatura",
-      "typeLine": "Legendary Creature — Moonfolk Wizard",
-      "image": "https://cards.scryfall.io/normal/front/6/0/60b9db96-a6ab-454b-99a7-910ef77560d7.jpg?1783928719",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/0/60b9db96-a6ab-454b-99a7-910ef77560d7.jpg?1783928719",
-      "scryfallUri": "https://scryfall.com/card/cmr/399/meloku-the-clouded-mirror?utm_source=api",
-      "priceUsd": 1.49,
-      "priceUyu": 63,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/meloku-the-clouded-mirror-commander-deck"
     },
     {
       "id": "a15d33d6-7213-4482-a1be-ac0a73644af6:n",
@@ -26453,30 +25877,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/bloomburrow-commander-decks/mind-stone"
     },
     {
-      "id": "1969ddc0-ee6c-4c3d-a9dd-7f1c491609be:n",
-      "name": "Mind Stone",
-      "setCode": "CLB",
-      "setName": "Commander Legends: Battle for Baldur's Gate",
-      "collectorNumber": "325",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "1969ddc0-ee6c-4c3d-a9dd-7f1c491609be",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/1/9/1969ddc0-ee6c-4c3d-a9dd-7f1c491609be.jpg?1783922670",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/9/1969ddc0-ee6c-4c3d-a9dd-7f1c491609be.jpg?1783922670",
-      "scryfallUri": "https://scryfall.com/card/clb/325/mind-stone?utm_source=api",
-      "priceUsd": 0.79,
-      "priceUyu": 33,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/mind-stone"
-    },
-    {
       "id": "6ff5cc3e-0179-442e-a0b0-48063dd59fb3:n",
       "name": "Mind Stone",
       "setCode": "BRC",
@@ -26815,30 +26215,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/mirri-weatherlight-duelist"
     },
     {
-      "id": "bc95036f-98f2-4ea7-93bb-542ad7064540:n",
-      "name": "Mirror of Galadriel",
-      "setCode": "LTR",
-      "setName": "The Lord of the Rings: Tales of Middle-earth",
-      "collectorNumber": "244",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "bc95036f-98f2-4ea7-93bb-542ad7064540",
-      "tipo": "Artefacto",
-      "typeLine": "Legendary Artifact",
-      "image": "https://cards.scryfall.io/normal/front/b/c/bc95036f-98f2-4ea7-93bb-542ad7064540.jpg?1783916238",
-      "imageSmall": "https://cards.scryfall.io/small/front/b/c/bc95036f-98f2-4ea7-93bb-542ad7064540.jpg?1783916238",
-      "scryfallUri": "https://scryfall.com/card/ltr/244/mirror-of-galadriel?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/mirror-of-galadriel"
-    },
-    {
       "id": "0394c8df-2e8a-4477-93b7-569934d7b936:n",
       "name": "Mirrorshell Crab",
       "setCode": "NEO",
@@ -26885,30 +26261,6 @@
       "priceUyu": 189,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2018/mirrorworks"
-    },
-    {
-      "id": "c96763d6-0cea-40ed-afb2-886bfebe50a0:n",
-      "name": "Misdirection",
-      "setCode": "DDT",
-      "setName": "Duel Decks: Merfolk vs. Goblins",
-      "collectorNumber": "15",
-      "color": [
-        "U"
-      ],
-      "manaValue": 5,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "c96763d6-0cea-40ed-afb2-886bfebe50a0",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/c/9/c96763d6-0cea-40ed-afb2-886bfebe50a0.jpg?1783935613",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/9/c96763d6-0cea-40ed-afb2-886bfebe50a0.jpg?1783935613",
-      "scryfallUri": "https://scryfall.com/card/ddt/15/misdirection?utm_source=api",
-      "priceUsd": 16.99,
-      "priceUyu": 714,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/duel-decks-merfolk-vs-goblins/misdirection"
     },
     {
       "id": "7f5b1daa-ec45-48de-9496-6ca5b491a0dc:n",
@@ -27179,30 +26531,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/aetherdrift/molt-tender"
     },
     {
-      "id": "0e758594-a48c-4508-b400-9028aec07f63:n",
-      "name": "Moment of Truth",
-      "setCode": "MOM",
-      "setName": "March of the Machine",
-      "collectorNumber": "67",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "0e758594-a48c-4508-b400-9028aec07f63",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/0/e/0e758594-a48c-4508-b400-9028aec07f63.jpg?1783917033",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/e/0e758594-a48c-4508-b400-9028aec07f63.jpg?1783917033",
-      "scryfallUri": "https://scryfall.com/card/mom/67/moment-of-truth?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/march-of-the-machine/moment-of-truth"
-    },
-    {
       "id": "ca079f33-2764-462e-ba6a-961cbb8318c3:n",
       "name": "Momentous Fall",
       "setCode": "C19",
@@ -27406,7 +26734,7 @@
       "manaValue": 4,
       "rarity": "common",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "1e8b209f-f577-45cc-9d18-03c1d67d391e",
       "tipo": "Criatura",
       "typeLine": "Creature — Human Ninja",
@@ -28704,30 +28032,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/nexos"
     },
     {
-      "id": "a959b40d-dd8c-49d8-8003-744d0c877b04:n",
-      "name": "Nezahal, Primal Tide",
-      "setCode": "CMR",
-      "setName": "Commander Legends",
-      "collectorNumber": "401",
-      "color": [
-        "U"
-      ],
-      "manaValue": 7,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "a959b40d-dd8c-49d8-8003-744d0c877b04",
-      "tipo": "Criatura",
-      "typeLine": "Legendary Creature — Elder Dinosaur",
-      "image": "https://cards.scryfall.io/normal/front/a/9/a959b40d-dd8c-49d8-8003-744d0c877b04.jpg?1783928719",
-      "imageSmall": "https://cards.scryfall.io/small/front/a/9/a959b40d-dd8c-49d8-8003-744d0c877b04.jpg?1783928719",
-      "scryfallUri": "https://scryfall.com/card/cmr/401/nezahal-primal-tide?utm_source=api",
-      "priceUsd": 14.99,
-      "priceUyu": 630,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/nezahal-primal-tide-commander-deck"
-    },
-    {
       "id": "f4a3d06c-8059-4f73-8f7e-29aa004cd3d5:n",
       "name": "Niblis of Frost",
       "setCode": "C20",
@@ -29794,30 +29098,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine-enchanting-tales/oppression-0032"
     },
     {
-      "id": "50ee44a3-09b5-491a-ba51-609756020a31:n",
-      "name": "Opt",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "194",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "50ee44a3-09b5-491a-ba51-609756020a31",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/5/0/50ee44a3-09b5-491a-ba51-609756020a31.jpg?1783915948",
-      "imageSmall": "https://cards.scryfall.io/small/front/5/0/50ee44a3-09b5-491a-ba51-609756020a31.jpg?1783915948",
-      "scryfallUri": "https://scryfall.com/card/ltc/194/opt?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/opt"
-    },
-    {
       "id": "dc691e02-c914-468d-8051-de1289171183:n",
       "name": "Opulent Palace",
       "setCode": "OTC",
@@ -29938,30 +29218,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/orcish-siegemaster"
     },
     {
-      "id": "305078a5-ac18-4721-bba2-3434eba5b1cf:n",
-      "name": "Ornithopter",
-      "setCode": "DMR",
-      "setName": "Dominaria Remastered",
-      "collectorNumber": "233",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 5,
-      "scryfallId": "305078a5-ac18-4721-bba2-3434eba5b1cf",
-      "tipo": "Criatura",
-      "typeLine": "Artifact Creature — Thopter",
-      "image": "https://cards.scryfall.io/normal/front/3/0/305078a5-ac18-4721-bba2-3434eba5b1cf.jpg?1783918410",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/0/305078a5-ac18-4721-bba2-3434eba5b1cf.jpg?1783918410",
-      "scryfallUri": "https://scryfall.com/card/dmr/233/ornithopter?utm_source=api",
-      "priceUsd": 0.69,
-      "priceUyu": 29,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered/ornithopter"
-    },
-    {
       "id": "051386e0-4c1c-48ed-8883-664c719cf0fe:n",
       "name": "Ornithopter",
       "setCode": "DMR",
@@ -29984,6 +29240,30 @@
       "priceUyu": 29,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered-variants/ornithopter-retro-frame"
+    },
+    {
+      "id": "305078a5-ac18-4721-bba2-3434eba5b1cf:n",
+      "name": "Ornithopter",
+      "setCode": "DMR",
+      "setName": "Dominaria Remastered",
+      "collectorNumber": "233",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 5,
+      "scryfallId": "305078a5-ac18-4721-bba2-3434eba5b1cf",
+      "tipo": "Criatura",
+      "typeLine": "Artifact Creature — Thopter",
+      "image": "https://cards.scryfall.io/normal/front/3/0/305078a5-ac18-4721-bba2-3434eba5b1cf.jpg?1783918410",
+      "imageSmall": "https://cards.scryfall.io/small/front/3/0/305078a5-ac18-4721-bba2-3434eba5b1cf.jpg?1783918410",
+      "scryfallUri": "https://scryfall.com/card/dmr/233/ornithopter?utm_source=api",
+      "priceUsd": 0.69,
+      "priceUyu": 29,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria-remastered/ornithopter"
     },
     {
       "id": "47c976ee-7eb3-42bb-8bfb-5eda12417e97:n",
@@ -30852,30 +30132,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/pathrazer-of-ulamog"
     },
     {
-      "id": "13cb9575-1138-4f99-8e90-0eaf00bdf4a1:n",
-      "name": "Pearl of Wisdom",
-      "setCode": "BLB",
-      "setName": "Bloomburrow",
-      "collectorNumber": "64",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "13cb9575-1138-4f99-8e90-0eaf00bdf4a1",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/1/3/13cb9575-1138-4f99-8e90-0eaf00bdf4a1.jpg?1783910846",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/3/13cb9575-1138-4f99-8e90-0eaf00bdf4a1.jpg?1783910846",
-      "scryfallUri": "https://scryfall.com/card/blb/64/pearl-of-wisdom?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/bloomburrow/pearl-of-wisdom"
-    },
-    {
       "id": "9fb3e38b-086e-4fbc-b7b1-8564c18276d7:n",
       "name": "Pemmin's Aura",
       "setCode": "SCG",
@@ -30959,7 +30215,7 @@
       "manaValue": 5,
       "rarity": "common",
       "foil": false,
-      "quantity": 6,
+      "quantity": 5,
       "scryfallId": "611c8fa2-b53f-483b-9efa-759ac59dc30f",
       "tipo": "Criatura",
       "typeLine": "Creature — Drake",
@@ -31262,30 +30518,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/pippin-warden-of-isengard"
-    },
-    {
-      "id": "81d82869-bb51-4a66-96ad-1ccd81a9734d:n",
-      "name": "Pithing Needle",
-      "setCode": "RVR",
-      "setName": "Ravnica Remastered",
-      "collectorNumber": "463",
-      "color": [
-        "C"
-      ],
-      "manaValue": 1,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "81d82869-bb51-4a66-96ad-1ccd81a9734d",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/8/1/81d82869-bb51-4a66-96ad-1ccd81a9734d.jpg?1783913158",
-      "imageSmall": "https://cards.scryfall.io/small/front/8/1/81d82869-bb51-4a66-96ad-1ccd81a9734d.jpg?1783913158",
-      "scryfallUri": "https://scryfall.com/card/rvr/463/pithing-needle?utm_source=api",
-      "priceUsd": 2.79,
-      "priceUyu": 117,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/ravnica-remastered-variants/pithing-needle-0463-retro-frame"
     },
     {
       "id": "5b5cd187-857a-44dd-8595-a52857a0b753:n",
@@ -31600,30 +30832,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/dissension/prahv-spires-of-order"
     },
     {
-      "id": "fa0af5ea-e9e1-4247-bde2-759c2653fc00:n",
-      "name": "Prairie Stream",
-      "setCode": "TDC",
-      "setName": "Tarkir: Dragonstorm Commander",
-      "collectorNumber": "384",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "fa0af5ea-e9e1-4247-bde2-759c2653fc00",
-      "tipo": "Tierra",
-      "typeLine": "Land — Plains Island",
-      "image": "https://cards.scryfall.io/normal/front/f/a/fa0af5ea-e9e1-4247-bde2-759c2653fc00.jpg?1783906975",
-      "imageSmall": "https://cards.scryfall.io/small/front/f/a/fa0af5ea-e9e1-4247-bde2-759c2653fc00.jpg?1783906975",
-      "scryfallUri": "https://scryfall.com/card/tdc/384/prairie-stream?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/prairie-stream"
-    },
-    {
       "id": "9985b168-5c20-41ba-9ada-2b5e4710d48c:n",
       "name": "Prairie Stream",
       "setCode": "LTC",
@@ -31648,28 +30856,28 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/prairie-stream"
     },
     {
-      "id": "cf2a92ee-2b20-4299-84b2-b4963f4a42a1:n",
-      "name": "Precognition Field",
-      "setCode": "DOM",
-      "setName": "Dominaria",
-      "collectorNumber": "61",
+      "id": "fa0af5ea-e9e1-4247-bde2-759c2653fc00:n",
+      "name": "Prairie Stream",
+      "setCode": "TDC",
+      "setName": "Tarkir: Dragonstorm Commander",
+      "collectorNumber": "384",
       "color": [
-        "U"
+        "C"
       ],
-      "manaValue": 4,
+      "manaValue": 0,
       "rarity": "rare",
       "foil": false,
-      "quantity": 1,
-      "scryfallId": "cf2a92ee-2b20-4299-84b2-b4963f4a42a1",
-      "tipo": "Encantamiento",
-      "typeLine": "Enchantment",
-      "image": "https://cards.scryfall.io/normal/front/c/f/cf2a92ee-2b20-4299-84b2-b4963f4a42a1.jpg?1783935024",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/f/cf2a92ee-2b20-4299-84b2-b4963f4a42a1.jpg?1783935024",
-      "scryfallUri": "https://scryfall.com/card/dom/61/precognition-field?utm_source=api",
+      "quantity": 2,
+      "scryfallId": "fa0af5ea-e9e1-4247-bde2-759c2653fc00",
+      "tipo": "Tierra",
+      "typeLine": "Land — Plains Island",
+      "image": "https://cards.scryfall.io/normal/front/f/a/fa0af5ea-e9e1-4247-bde2-759c2653fc00.jpg?1783906975",
+      "imageSmall": "https://cards.scryfall.io/small/front/f/a/fa0af5ea-e9e1-4247-bde2-759c2653fc00.jpg?1783906975",
+      "scryfallUri": "https://scryfall.com/card/tdc/384/prairie-stream?utm_source=api",
       "priceUsd": 1,
       "priceUyu": 42,
       "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/dominaria/precognition-field"
+      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/prairie-stream"
     },
     {
       "id": "dd29a0e5-c1de-4e8a-8866-715e9f9cde1f:n",
@@ -31694,30 +30902,6 @@
       "priceUyu": 54,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/preordain"
-    },
-    {
-      "id": "6e681c39-aa00-4c6d-b077-affe3b90bed8:n",
-      "name": "Preordain",
-      "setCode": "LTC",
-      "setName": "Tales of Middle-earth Commander",
-      "collectorNumber": "196",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "6e681c39-aa00-4c6d-b077-affe3b90bed8",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/6/e/6e681c39-aa00-4c6d-b077-affe3b90bed8.jpg?1783915948",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/e/6e681c39-aa00-4c6d-b077-affe3b90bed8.jpg?1783915948",
-      "scryfallUri": "https://scryfall.com/card/ltc/196/preordain?utm_source=api",
-      "priceUsd": 1.79,
-      "priceUyu": 75,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/preordain"
     },
     {
       "id": "eb11921b-1b28-483f-a707-4de21a6daa31:n",
@@ -32061,30 +31245,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/prized-statue"
     },
     {
-      "id": "1edb449d-620f-4e21-9d76-2c840635eb9d:n",
-      "name": "Procrastinate",
-      "setCode": "SOS",
-      "setName": "Secrets of Strixhaven",
-      "collectorNumber": "64",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "1edb449d-620f-4e21-9d76-2c840635eb9d",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/1/e/1edb449d-620f-4e21-9d76-2c840635eb9d.jpg?1783903688",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/e/1edb449d-620f-4e21-9d76-2c840635eb9d.jpg?1783903688",
-      "scryfallUri": "https://scryfall.com/card/sos/64/procrastinate?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven/procrastinate"
-    },
-    {
       "id": "7005bb21-0cec-4c19-a95b-99a1bac25aa4:n",
       "name": "Profane Command",
       "setCode": "NCC",
@@ -32131,30 +31291,6 @@
       "priceUyu": 189,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-2/profane-tutor"
-    },
-    {
-      "id": "0806d4a1-4d2f-454b-b830-5ab58e13a452:n",
-      "name": "Propaganda",
-      "setCode": "M3C",
-      "setName": "Modern Horizons 3 Commander",
-      "collectorNumber": "191",
-      "color": [
-        "U"
-      ],
-      "manaValue": 3,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "0806d4a1-4d2f-454b-b830-5ab58e13a452",
-      "tipo": "Encantamiento",
-      "typeLine": "Enchantment",
-      "image": "https://cards.scryfall.io/normal/front/0/8/0806d4a1-4d2f-454b-b830-5ab58e13a452.jpg?1783911383",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/8/0806d4a1-4d2f-454b-b830-5ab58e13a452.jpg?1783911383",
-      "scryfallUri": "https://scryfall.com/card/m3c/191/propaganda?utm_source=api",
-      "priceUsd": 3.49,
-      "priceUyu": 147,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/propaganda"
     },
     {
       "id": "8ba35b71-070e-482f-8a48-615a39631719:n",
@@ -32680,7 +31816,7 @@
       "manaValue": 3,
       "rarity": "common",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "098c86fd-5a38-41fd-be44-ab963448f2a2",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -33457,7 +32593,7 @@
       "manaValue": 3,
       "rarity": "common",
       "foil": false,
-      "quantity": 5,
+      "quantity": 4,
       "scryfallId": "f2d5e87b-1ee8-47db-9bc3-f5becfe79b37",
       "tipo": "Conjuro",
       "typeLine": "Sorcery",
@@ -33904,30 +33040,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/relic-of-sauron"
     },
     {
-      "id": "e2a27742-08c1-4153-af7f-25a7a98f585e:n",
-      "name": "Reliquary Tower",
-      "setCode": "SOC",
-      "setName": "Secrets of Strixhaven Commander",
-      "collectorNumber": "398",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 3,
-      "scryfallId": "e2a27742-08c1-4153-af7f-25a7a98f585e",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
-      "imageSmall": "https://cards.scryfall.io/small/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
-      "scryfallUri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
-      "priceUsd": 6.49,
-      "priceUyu": 273,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/reliquary-tower"
-    },
-    {
       "id": "fcc31eb5-d0aa-4b4d-8908-cad1bba7348a:n",
       "name": "Reliquary Tower",
       "setCode": "BRC",
@@ -33950,6 +33062,30 @@
       "priceUyu": 252,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-brothers-war-commander-decks/reliquary-tower"
+    },
+    {
+      "id": "e2a27742-08c1-4153-af7f-25a7a98f585e:n",
+      "name": "Reliquary Tower",
+      "setCode": "SOC",
+      "setName": "Secrets of Strixhaven Commander",
+      "collectorNumber": "398",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 3,
+      "scryfallId": "e2a27742-08c1-4153-af7f-25a7a98f585e",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
+      "imageSmall": "https://cards.scryfall.io/small/front/e/2/e2a27742-08c1-4153-af7f-25a7a98f585e.jpg?1783903721",
+      "scryfallUri": "https://scryfall.com/card/soc/398/reliquary-tower?utm_source=api",
+      "priceUsd": 6.49,
+      "priceUyu": 273,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/reliquary-tower"
     },
     {
       "id": "b31e307a-9689-4e11-8c5f-96b7a4b50bed:n",
@@ -34704,30 +33840,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/rip-apart"
     },
     {
-      "id": "cc4ba296-950c-4e39-ab5e-06be07e4a190:n",
-      "name": "Riptide Turtle",
-      "setCode": "THB",
-      "setName": "Theros Beyond Death",
-      "collectorNumber": "61",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "cc4ba296-950c-4e39-ab5e-06be07e4a190",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Turtle",
-      "image": "https://cards.scryfall.io/normal/front/c/c/cc4ba296-950c-4e39-ab5e-06be07e4a190.jpg?1783931580",
-      "imageSmall": "https://cards.scryfall.io/small/front/c/c/cc4ba296-950c-4e39-ab5e-06be07e4a190.jpg?1783931580",
-      "scryfallUri": "https://scryfall.com/card/thb/61/riptide-turtle?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/theros-beyond-death/riptide-turtle"
-    },
-    {
       "id": "3f440fa1-5387-41d6-a80f-5b19dbb21514:n",
       "name": "Rise of the Witch-king",
       "setCode": "LTR",
@@ -34972,30 +34084,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/murders-at-karlov-manor-commander-decks/river-of-tears"
     },
     {
-      "id": "32ae984e-5d1e-4497-9a71-7406f78c09f3:n",
-      "name": "River's Rebuke",
-      "setCode": "FDN",
-      "setName": "Foundations",
-      "collectorNumber": "595",
-      "color": [
-        "U"
-      ],
-      "manaValue": 6,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "32ae984e-5d1e-4497-9a71-7406f78c09f3",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/3/2/32ae984e-5d1e-4497-9a71-7406f78c09f3.jpg?1783908932",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/2/32ae984e-5d1e-4497-9a71-7406f78c09f3.jpg?1783908932",
-      "scryfallUri": "https://scryfall.com/card/fdn/595/rivers-rebuke?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/foundations/rivers-rebuke"
-    },
-    {
       "id": "3fc23e7a-5059-4c8d-85bd-224f4c1bfc1c:n",
       "name": "Roadkill Rodney",
       "setCode": "TMC",
@@ -35079,7 +34167,7 @@
       "manaValue": 0,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "86438671-fdb8-4a82-b1e8-ef51fa4078df",
       "tipo": "Tierra",
       "typeLine": "Land",
@@ -35726,30 +34814,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/2013-core-set/sands-of-delirium"
     },
     {
-      "id": "37f7d30c-91ec-4d02-9ee0-ed4de495cbf5:n",
-      "name": "Sandsteppe Citadel",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "1024",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "37f7d30c-91ec-4d02-9ee0-ed4de495cbf5",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/3/7/37f7d30c-91ec-4d02-9ee0-ed4de495cbf5.jpg?1783915380",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/7/37f7d30c-91ec-4d02-9ee0-ed4de495cbf5.jpg?1783915380",
-      "scryfallUri": "https://scryfall.com/card/cmm/1024/sandsteppe-citadel?utm_source=api",
-      "priceUsd": 0.49,
-      "priceUyu": 21,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/sandsteppe-citadel"
-    },
-    {
       "id": "1aa64692-264f-4410-b62f-5aa8833c435c:n",
       "name": "Sandsteppe Citadel",
       "setCode": "LTC",
@@ -35772,6 +34836,30 @@
       "priceUyu": 25,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/sandsteppe-citadel"
+    },
+    {
+      "id": "37f7d30c-91ec-4d02-9ee0-ed4de495cbf5:n",
+      "name": "Sandsteppe Citadel",
+      "setCode": "CMM",
+      "setName": "Commander Masters",
+      "collectorNumber": "1024",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "37f7d30c-91ec-4d02-9ee0-ed4de495cbf5",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/3/7/37f7d30c-91ec-4d02-9ee0-ed4de495cbf5.jpg?1783915380",
+      "imageSmall": "https://cards.scryfall.io/small/front/3/7/37f7d30c-91ec-4d02-9ee0-ed4de495cbf5.jpg?1783915380",
+      "scryfallUri": "https://scryfall.com/card/cmm/1024/sandsteppe-citadel?utm_source=api",
+      "priceUsd": 0.49,
+      "priceUyu": 21,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/sandsteppe-citadel"
     },
     {
       "id": "3ad9cb61-4072-449b-9b32-83e2192cb292:n",
@@ -36316,30 +35404,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine/scalding-viper"
     },
     {
-      "id": "0834b6e2-7a92-4767-8aca-9ec8961cd33e:n",
-      "name": "Scattered Groves",
-      "setCode": "OTC",
-      "setName": "Outlaws of Thunder Junction Commander",
-      "collectorNumber": "315",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "0834b6e2-7a92-4767-8aca-9ec8961cd33e",
-      "tipo": "Tierra",
-      "typeLine": "Land — Forest Plains",
-      "image": "https://cards.scryfall.io/normal/front/0/8/0834b6e2-7a92-4767-8aca-9ec8961cd33e.jpg?1783911871",
-      "imageSmall": "https://cards.scryfall.io/small/front/0/8/0834b6e2-7a92-4767-8aca-9ec8961cd33e.jpg?1783911871",
-      "scryfallUri": "https://scryfall.com/card/otc/315/scattered-groves?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/scattered-groves"
-    },
-    {
       "id": "25a62cf4-4432-4081-9f82-a984da1e04e2:n",
       "name": "Scattered Groves",
       "setCode": "LTC",
@@ -36362,6 +35426,30 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/scattered-groves"
+    },
+    {
+      "id": "0834b6e2-7a92-4767-8aca-9ec8961cd33e:n",
+      "name": "Scattered Groves",
+      "setCode": "OTC",
+      "setName": "Outlaws of Thunder Junction Commander",
+      "collectorNumber": "315",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "0834b6e2-7a92-4767-8aca-9ec8961cd33e",
+      "tipo": "Tierra",
+      "typeLine": "Land — Forest Plains",
+      "image": "https://cards.scryfall.io/normal/front/0/8/0834b6e2-7a92-4767-8aca-9ec8961cd33e.jpg?1783911871",
+      "imageSmall": "https://cards.scryfall.io/small/front/0/8/0834b6e2-7a92-4767-8aca-9ec8961cd33e.jpg?1783911871",
+      "scryfallUri": "https://scryfall.com/card/otc/315/scattered-groves?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/scattered-groves"
     },
     {
       "id": "afd0ba67-cbb7-49fe-83a0-02e85a37d9d6:n",
@@ -36506,30 +35594,6 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/scoured-barrens"
-    },
-    {
-      "id": "a79471f9-5cc0-48f5-9fa4-1f1374993825:n",
-      "name": "Scourge of Fleets",
-      "setCode": "CMR",
-      "setName": "Commander Legends",
-      "collectorNumber": "403",
-      "color": [
-        "U"
-      ],
-      "manaValue": 7,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "a79471f9-5cc0-48f5-9fa4-1f1374993825",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Kraken",
-      "image": "https://cards.scryfall.io/normal/front/a/7/a79471f9-5cc0-48f5-9fa4-1f1374993825.jpg?1783928720",
-      "imageSmall": "https://cards.scryfall.io/small/front/a/7/a79471f9-5cc0-48f5-9fa4-1f1374993825.jpg?1783928720",
-      "scryfallUri": "https://scryfall.com/card/cmr/403/scourge-of-fleets?utm_source=api",
-      "priceUsd": 1.49,
-      "priceUyu": 63,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/scourge-of-fleets-commander-deck"
     },
     {
       "id": "078b560f-9b86-401a-afff-21ddb1ebed61:n",
@@ -36770,30 +35834,6 @@
       "priceUyu": 16,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/murders-at-karlov-manor-commander-decks/seal-of-cleansing"
-    },
-    {
-      "id": "6dfc7060-e374-486f-8029-d3fdfe4b61e7:n",
-      "name": "Seal of Removal",
-      "setCode": "MH2",
-      "setName": "Modern Horizons 2",
-      "collectorNumber": "269",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "6dfc7060-e374-486f-8029-d3fdfe4b61e7",
-      "tipo": "Encantamiento",
-      "typeLine": "Enchantment",
-      "image": "https://cards.scryfall.io/normal/front/6/d/6dfc7060-e374-486f-8029-d3fdfe4b61e7.jpg?1783926788",
-      "imageSmall": "https://cards.scryfall.io/small/front/6/d/6dfc7060-e374-486f-8029-d3fdfe4b61e7.jpg?1783926788",
-      "scryfallUri": "https://scryfall.com/card/mh2/269/seal-of-removal?utm_source=api",
-      "priceUsd": 0.35,
-      "priceUyu": 15,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-2/seal-of-removal"
     },
     {
       "id": "029b6d93-0f7a-4df4-8c01-96cbd5e03315:n",
@@ -37180,30 +36220,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/mirrodin/seething-song"
     },
     {
-      "id": "8e5bb089-a231-4d8a-a02a-296152cf5b4d:n",
-      "name": "Selesnya Sanctuary",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "1031",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 4,
-      "scryfallId": "8e5bb089-a231-4d8a-a02a-296152cf5b4d",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/8/e/8e5bb089-a231-4d8a-a02a-296152cf5b4d.jpg?1783915377",
-      "imageSmall": "https://cards.scryfall.io/small/front/8/e/8e5bb089-a231-4d8a-a02a-296152cf5b4d.jpg?1783915377",
-      "scryfallUri": "https://scryfall.com/card/cmm/1031/selesnya-sanctuary?utm_source=api",
-      "priceUsd": 0.69,
-      "priceUyu": 29,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/selesnya-sanctuary"
-    },
-    {
       "id": "e8af7e5a-806b-4264-9010-f497b40a7fb4:f",
       "name": "Selesnya Sanctuary",
       "setCode": "2X2",
@@ -37226,6 +36242,30 @@
       "priceUyu": 33,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/double-masters-2022/selesnya-sanctuary-foil"
+    },
+    {
+      "id": "8e5bb089-a231-4d8a-a02a-296152cf5b4d:n",
+      "name": "Selesnya Sanctuary",
+      "setCode": "CMM",
+      "setName": "Commander Masters",
+      "collectorNumber": "1031",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 4,
+      "scryfallId": "8e5bb089-a231-4d8a-a02a-296152cf5b4d",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/8/e/8e5bb089-a231-4d8a-a02a-296152cf5b4d.jpg?1783915377",
+      "imageSmall": "https://cards.scryfall.io/small/front/8/e/8e5bb089-a231-4d8a-a02a-296152cf5b4d.jpg?1783915377",
+      "scryfallUri": "https://scryfall.com/card/cmm/1031/selesnya-sanctuary?utm_source=api",
+      "priceUsd": 0.69,
+      "priceUyu": 29,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/selesnya-sanctuary"
     },
     {
       "id": "4e21a028-0f06-4124-bd0f-04989a1f9481:n",
@@ -38050,30 +37090,6 @@
       "priceUyu": 96,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/signature-spellbook-gideon/shielded-by-faith"
-    },
-    {
-      "id": "3983a11e-8a8a-4d9d-868b-13e0c3719abb:n",
-      "name": "Shimmer Dragon",
-      "setCode": "MKC",
-      "setName": "Murders at Karlov Manor Commander",
-      "collectorNumber": "117",
-      "color": [
-        "U"
-      ],
-      "manaValue": 6,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "3983a11e-8a8a-4d9d-868b-13e0c3719abb",
-      "tipo": "Criatura",
-      "typeLine": "Creature — Dragon",
-      "image": "https://cards.scryfall.io/normal/front/3/9/3983a11e-8a8a-4d9d-868b-13e0c3719abb.jpg?1783913013",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/9/3983a11e-8a8a-4d9d-868b-13e0c3719abb.jpg?1783913013",
-      "scryfallUri": "https://scryfall.com/card/mkc/117/shimmer-dragon?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/murders-at-karlov-manor-commander-decks/shimmer-dragon"
     },
     {
       "id": "9532d03d-a4c2-44c4-ae14-3f8e0bce79a5:n",
@@ -39133,7 +38149,7 @@
       "manaValue": 1,
       "rarity": "common",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "80dea5c0-ada3-488a-9f2b-f895b92c762f",
       "tipo": "Conjuro",
       "typeLine": "Sorcery",
@@ -39341,30 +38357,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-brothers-war-commander-decks/smelting-vat"
     },
     {
-      "id": "d6890462-aeb0-4356-93dc-b2eda0df0c0e:n",
-      "name": "Smoldering Marsh",
-      "setCode": "ECC",
-      "setName": "Lorwyn Eclipsed Commander",
-      "collectorNumber": "168",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "d6890462-aeb0-4356-93dc-b2eda0df0c0e",
-      "tipo": "Tierra",
-      "typeLine": "Land — Swamp Mountain",
-      "image": "https://cards.scryfall.io/normal/front/d/6/d6890462-aeb0-4356-93dc-b2eda0df0c0e.jpg?1783904517",
-      "imageSmall": "https://cards.scryfall.io/small/front/d/6/d6890462-aeb0-4356-93dc-b2eda0df0c0e.jpg?1783904517",
-      "scryfallUri": "https://scryfall.com/card/ecc/168/smoldering-marsh?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/lorwyn-eclipsed-commander-decks/smoldering-marsh"
-    },
-    {
       "id": "a4746e54-974a-4743-ab9b-a9e49034b16d:n",
       "name": "Smoldering Marsh",
       "setCode": "TMC",
@@ -39411,6 +38403,30 @@
       "priceUyu": 54,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/smoldering-marsh"
+    },
+    {
+      "id": "d6890462-aeb0-4356-93dc-b2eda0df0c0e:n",
+      "name": "Smoldering Marsh",
+      "setCode": "ECC",
+      "setName": "Lorwyn Eclipsed Commander",
+      "collectorNumber": "168",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "d6890462-aeb0-4356-93dc-b2eda0df0c0e",
+      "tipo": "Tierra",
+      "typeLine": "Land — Swamp Mountain",
+      "image": "https://cards.scryfall.io/normal/front/d/6/d6890462-aeb0-4356-93dc-b2eda0df0c0e.jpg?1783904517",
+      "imageSmall": "https://cards.scryfall.io/small/front/d/6/d6890462-aeb0-4356-93dc-b2eda0df0c0e.jpg?1783904517",
+      "scryfallUri": "https://scryfall.com/card/ecc/168/smoldering-marsh?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/lorwyn-eclipsed-commander-decks/smoldering-marsh"
     },
     {
       "id": "24921817-36fe-4a2d-86e7-d3749bb8da32:f",
@@ -39533,28 +38549,28 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/sodden-verdure"
     },
     {
-      "id": "19911e6e-7c35-4281-b31c-266382f052cc:n",
+      "id": "33773feb-5b49-4d44-adca-93b99009acc0:n",
       "name": "Sol Ring",
-      "setCode": "M3C",
-      "setName": "Modern Horizons 3 Commander",
-      "collectorNumber": "305",
+      "setCode": "40K",
+      "setName": "Warhammer 40,000 Commander",
+      "collectorNumber": "249",
       "color": [
         "C"
       ],
       "manaValue": 1,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 6,
-      "scryfallId": "19911e6e-7c35-4281-b31c-266382f052cc",
+      "quantity": 1,
+      "scryfallId": "33773feb-5b49-4d44-adca-93b99009acc0",
       "tipo": "Artefacto",
       "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/1/9/19911e6e-7c35-4281-b31c-266382f052cc.jpg?1783911346",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/9/19911e6e-7c35-4281-b31c-266382f052cc.jpg?1783911346",
-      "scryfallUri": "https://scryfall.com/card/m3c/305/sol-ring?utm_source=api",
-      "priceUsd": 2.79,
-      "priceUyu": 117,
+      "image": "https://cards.scryfall.io/normal/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
+      "imageSmall": "https://cards.scryfall.io/small/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
+      "scryfallUri": "https://scryfall.com/card/40k/249/sol-ring?utm_source=api",
+      "priceUsd": 3.49,
+      "priceUyu": 147,
       "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/sol-ring"
+      "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/sol-ring-249"
     },
     {
       "id": "5805f64c-dd88-4e94-8f0a-a01dae67e3ba:n",
@@ -39581,54 +38597,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/sol-ring"
     },
     {
-      "id": "33773feb-5b49-4d44-adca-93b99009acc0:n",
-      "name": "Sol Ring",
-      "setCode": "40K",
-      "setName": "Warhammer 40,000 Commander",
-      "collectorNumber": "249",
-      "color": [
-        "C"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "33773feb-5b49-4d44-adca-93b99009acc0",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
-      "scryfallUri": "https://scryfall.com/card/40k/249/sol-ring?utm_source=api",
-      "priceUsd": 3.49,
-      "priceUyu": 147,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/universes-beyond-warhammer-40000/sol-ring-249"
-    },
-    {
-      "id": "14dbce79-1fcc-4cc9-bf38-7729e44a411e:n",
-      "name": "Sol Ring",
-      "setCode": "TMC",
-      "setName": "Teenage Mutant Ninja Turtles Eternal",
-      "collectorNumber": "59",
-      "color": [
-        "C"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "14dbce79-1fcc-4cc9-bf38-7729e44a411e",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/1/4/14dbce79-1fcc-4cc9-bf38-7729e44a411e.jpg?1783904155",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/4/14dbce79-1fcc-4cc9-bf38-7729e44a411e.jpg?1783904155",
-      "scryfallUri": "https://scryfall.com/card/tmc/59/sol-ring?utm_source=api",
-      "priceUsd": 2.99,
-      "priceUyu": 126,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/sol-ring"
-    },
-    {
       "id": "e672d408-997c-4a19-810a-3da8411eecf2:n",
       "name": "Sol Ring",
       "setCode": "C19",
@@ -39651,6 +38619,30 @@
       "priceUyu": 126,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-2019/sol-ring"
+    },
+    {
+      "id": "19911e6e-7c35-4281-b31c-266382f052cc:n",
+      "name": "Sol Ring",
+      "setCode": "M3C",
+      "setName": "Modern Horizons 3 Commander",
+      "collectorNumber": "305",
+      "color": [
+        "C"
+      ],
+      "manaValue": 1,
+      "rarity": "uncommon",
+      "foil": false,
+      "quantity": 6,
+      "scryfallId": "19911e6e-7c35-4281-b31c-266382f052cc",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/1/9/19911e6e-7c35-4281-b31c-266382f052cc.jpg?1783911346",
+      "imageSmall": "https://cards.scryfall.io/small/front/1/9/19911e6e-7c35-4281-b31c-266382f052cc.jpg?1783911346",
+      "scryfallUri": "https://scryfall.com/card/m3c/305/sol-ring?utm_source=api",
+      "priceUsd": 2.79,
+      "priceUyu": 117,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/modern-horizons-3-commander-decks/sol-ring"
     },
     {
       "id": "a51fb64d-cc0c-400d-971f-78c28d42043b:n",
@@ -39736,7 +38728,7 @@
       "manaValue": 4,
       "rarity": "rare",
       "foil": false,
-      "quantity": 4,
+      "quantity": 3,
       "scryfallId": "29fae212-b757-4e5f-ad9b-06cd09782f9f",
       "tipo": "Criatura",
       "typeLine": "Artifact Creature — Golem",
@@ -40065,30 +39057,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/special-move"
     },
     {
-      "id": "dcf3140f-d5c8-45ff-8be4-622b1a129b3d:n",
-      "name": "Spectator Seating",
-      "setCode": "CMM",
-      "setName": "Commander Masters",
-      "collectorNumber": "427",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 2,
-      "scryfallId": "dcf3140f-d5c8-45ff-8be4-622b1a129b3d",
-      "tipo": "Tierra",
-      "typeLine": "Land",
-      "image": "https://cards.scryfall.io/normal/front/d/c/dcf3140f-d5c8-45ff-8be4-622b1a129b3d.jpg?1783915584",
-      "imageSmall": "https://cards.scryfall.io/small/front/d/c/dcf3140f-d5c8-45ff-8be4-622b1a129b3d.jpg?1783915584",
-      "scryfallUri": "https://scryfall.com/card/cmm/427/spectator-seating?utm_source=api",
-      "priceUsd": 14.99,
-      "priceUyu": 630,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/spectator-seating"
-    },
-    {
       "id": "2f6f1453-fe93-4a29-965c-5f867a81e8b3:n",
       "name": "Spectator Seating",
       "setCode": "CMR",
@@ -40113,28 +39081,28 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends/spectator-seating"
     },
     {
-      "id": "522d6195-7660-42c0-848b-cc46e19fc4eb:n",
-      "name": "Spell Crumple",
-      "setCode": "CM2",
-      "setName": "Commander Anthology Volume II",
-      "collectorNumber": "50",
+      "id": "dcf3140f-d5c8-45ff-8be4-622b1a129b3d:n",
+      "name": "Spectator Seating",
+      "setCode": "CMM",
+      "setName": "Commander Masters",
+      "collectorNumber": "427",
       "color": [
-        "U"
+        "C"
       ],
-      "manaValue": 3,
-      "rarity": "uncommon",
+      "manaValue": 0,
+      "rarity": "rare",
       "foil": false,
-      "quantity": 1,
-      "scryfallId": "522d6195-7660-42c0-848b-cc46e19fc4eb",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/5/2/522d6195-7660-42c0-848b-cc46e19fc4eb.jpg?1783934762",
-      "imageSmall": "https://cards.scryfall.io/small/front/5/2/522d6195-7660-42c0-848b-cc46e19fc4eb.jpg?1783934762",
-      "scryfallUri": "https://scryfall.com/card/cm2/50/spell-crumple?utm_source=api",
-      "priceUsd": 1.29,
-      "priceUyu": 54,
+      "quantity": 2,
+      "scryfallId": "dcf3140f-d5c8-45ff-8be4-622b1a129b3d",
+      "tipo": "Tierra",
+      "typeLine": "Land",
+      "image": "https://cards.scryfall.io/normal/front/d/c/dcf3140f-d5c8-45ff-8be4-622b1a129b3d.jpg?1783915584",
+      "imageSmall": "https://cards.scryfall.io/small/front/d/c/dcf3140f-d5c8-45ff-8be4-622b1a129b3d.jpg?1783915584",
+      "scryfallUri": "https://scryfall.com/card/cmm/427/spectator-seating?utm_source=api",
+      "priceUsd": 14.99,
+      "priceUyu": 630,
       "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-anthology-vol-ii/spell-crumple"
+      "ckUrl": "https://www.cardkingdom.com/mtg/commander-masters/spectator-seating"
     },
     {
       "id": "24447e36-a42f-40a9-ad44-e904b6f9b276:n",
@@ -40148,7 +39116,7 @@
       "manaValue": 2,
       "rarity": "common",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "24447e36-a42f-40a9-ad44-e904b6f9b276",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -40159,30 +39127,6 @@
       "priceUyu": 21,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine/spell-stutter"
-    },
-    {
-      "id": "72204934-f5aa-4559-8f7e-7b0b223580d0:n",
-      "name": "Spellskite",
-      "setCode": "CLB",
-      "setName": "Commander Legends: Battle for Baldur's Gate",
-      "collectorNumber": "873",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "72204934-f5aa-4559-8f7e-7b0b223580d0",
-      "tipo": "Criatura",
-      "typeLine": "Artifact Creature — Phyrexian Horror",
-      "image": "https://cards.scryfall.io/normal/front/7/2/72204934-f5aa-4559-8f7e-7b0b223580d0.jpg?1783922383",
-      "imageSmall": "https://cards.scryfall.io/small/front/7/2/72204934-f5aa-4559-8f7e-7b0b223580d0.jpg?1783922383",
-      "scryfallUri": "https://scryfall.com/card/clb/873/spellskite?utm_source=api",
-      "priceUsd": 9.49,
-      "priceUyu": 399,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/spellskite"
     },
     {
       "id": "5bd5cd33-20e2-4063-b422-2bde13021888:n",
@@ -40812,30 +39756,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction/step-between-worlds"
     },
     {
-      "id": "3ca1e1de-b916-445f-b3b2-0f4d0cc7ceeb:n",
-      "name": "Stern Scolding",
-      "setCode": "LTR",
-      "setName": "The Lord of the Rings: Tales of Middle-earth",
-      "collectorNumber": "71",
-      "color": [
-        "U"
-      ],
-      "manaValue": 1,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "3ca1e1de-b916-445f-b3b2-0f4d0cc7ceeb",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/3/c/3ca1e1de-b916-445f-b3b2-0f4d0cc7ceeb.jpg?1783916310",
-      "imageSmall": "https://cards.scryfall.io/small/front/3/c/3ca1e1de-b916-445f-b3b2-0f4d0cc7ceeb.jpg?1783916310",
-      "scryfallUri": "https://scryfall.com/card/ltr/71/stern-scolding?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/stern-scolding"
-    },
-    {
       "id": "3ca1e1de-b916-445f-b3b2-0f4d0cc7ceeb:f",
       "name": "Stern Scolding",
       "setCode": "LTR",
@@ -40992,7 +39912,7 @@
       "manaValue": 1,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "bc02e193-df33-4eb1-adc1-b51ee931218a",
       "tipo": "Artefacto",
       "typeLine": "Legendary Artifact",
@@ -41003,30 +39923,6 @@
       "priceUyu": 16,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/stone-of-erech"
-    },
-    {
-      "id": "52884e67-c742-4799-9afd-55bc70b2cf40:n",
-      "name": "Storm of Saruman",
-      "setCode": "LTR",
-      "setName": "The Lord of the Rings: Tales of Middle-earth",
-      "collectorNumber": "72",
-      "color": [
-        "U"
-      ],
-      "manaValue": 6,
-      "rarity": "mythic",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "52884e67-c742-4799-9afd-55bc70b2cf40",
-      "tipo": "Encantamiento",
-      "typeLine": "Enchantment",
-      "image": "https://cards.scryfall.io/normal/front/5/2/52884e67-c742-4799-9afd-55bc70b2cf40.jpg?1783916312",
-      "imageSmall": "https://cards.scryfall.io/small/front/5/2/52884e67-c742-4799-9afd-55bc70b2cf40.jpg?1783916312",
-      "scryfallUri": "https://scryfall.com/card/ltr/72/storm-of-saruman?utm_source=api",
-      "priceUsd": 4.49,
-      "priceUyu": 189,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth/storm-of-saruman"
     },
     {
       "id": "996bb4c0-dc72-4233-9f44-2e25aef71ad7:n",
@@ -41486,30 +40382,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/outlaws-of-thunder-junction-commander-decks/sunhome-fortress-of-the-legion"
     },
     {
-      "id": "44f3e367-0dff-4cdb-b23a-52aa57fee946:n",
-      "name": "Sunken Hollow",
-      "setCode": "TDC",
-      "setName": "Tarkir: Dragonstorm Commander",
-      "collectorNumber": "398",
-      "color": [
-        "C"
-      ],
-      "manaValue": 0,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 4,
-      "scryfallId": "44f3e367-0dff-4cdb-b23a-52aa57fee946",
-      "tipo": "Tierra",
-      "typeLine": "Land — Island Swamp",
-      "image": "https://cards.scryfall.io/normal/front/4/4/44f3e367-0dff-4cdb-b23a-52aa57fee946.jpg?1783906966",
-      "imageSmall": "https://cards.scryfall.io/small/front/4/4/44f3e367-0dff-4cdb-b23a-52aa57fee946.jpg?1783906966",
-      "scryfallUri": "https://scryfall.com/card/tdc/398/sunken-hollow?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/sunken-hollow"
-    },
-    {
       "id": "7ab0a5f2-5260-403d-9522-954efc91e96d:n",
       "name": "Sunken Hollow",
       "setCode": "TMC",
@@ -41532,6 +40404,30 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/teenage-mutant-ninja-turtles-eternal-legal/sunken-hollow"
+    },
+    {
+      "id": "44f3e367-0dff-4cdb-b23a-52aa57fee946:n",
+      "name": "Sunken Hollow",
+      "setCode": "TDC",
+      "setName": "Tarkir: Dragonstorm Commander",
+      "collectorNumber": "398",
+      "color": [
+        "C"
+      ],
+      "manaValue": 0,
+      "rarity": "rare",
+      "foil": false,
+      "quantity": 4,
+      "scryfallId": "44f3e367-0dff-4cdb-b23a-52aa57fee946",
+      "tipo": "Tierra",
+      "typeLine": "Land — Island Swamp",
+      "image": "https://cards.scryfall.io/normal/front/4/4/44f3e367-0dff-4cdb-b23a-52aa57fee946.jpg?1783906966",
+      "imageSmall": "https://cards.scryfall.io/small/front/4/4/44f3e367-0dff-4cdb-b23a-52aa57fee946.jpg?1783906966",
+      "scryfallUri": "https://scryfall.com/card/tdc/398/sunken-hollow?utm_source=api",
+      "priceUsd": 1,
+      "priceUyu": 42,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/sunken-hollow"
     },
     {
       "id": "6a918ba2-5f03-4024-999d-2d2942a1cac1:n",
@@ -41826,30 +40722,6 @@
       "priceUyu": 189,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/tarkir-dragonstorm-commander-decks/swiftfoot-boots"
-    },
-    {
-      "id": "16c23cde-e1c0-4cdf-ae59-18d64db518d4:n",
-      "name": "Swiftfoot Boots",
-      "setCode": "CLB",
-      "setName": "Commander Legends: Battle for Baldur's Gate",
-      "collectorNumber": "339",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "16c23cde-e1c0-4cdf-ae59-18d64db518d4",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact — Equipment",
-      "image": "https://cards.scryfall.io/normal/front/1/6/16c23cde-e1c0-4cdf-ae59-18d64db518d4.jpg?1783922663",
-      "imageSmall": "https://cards.scryfall.io/small/front/1/6/16c23cde-e1c0-4cdf-ae59-18d64db518d4.jpg?1783922663",
-      "scryfallUri": "https://scryfall.com/card/clb/339/swiftfoot-boots?utm_source=api",
-      "priceUsd": 4.49,
-      "priceUyu": 189,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/swiftfoot-boots"
     },
     {
       "id": "949bf6bb-1e97-48a3-8547-0a780664c275:n",
@@ -42975,7 +41847,7 @@
       "manaValue": 0,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 4,
+      "quantity": 3,
       "scryfallId": "f55a1775-9672-4f0c-9aab-30ba90f0d1e6",
       "tipo": "Tierra",
       "typeLine": "Land",
@@ -43373,30 +42245,6 @@
       "priceUyu": 15,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/teshar-ancestors-apostle"
-    },
-    {
-      "id": "21625c5c-7a9c-498d-afb6-ea57dea33fc6:n",
-      "name": "Tetsuko Umezawa, Fugitive",
-      "setCode": "BLC",
-      "setName": "Bloomburrow Commander",
-      "collectorNumber": "177",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "21625c5c-7a9c-498d-afb6-ea57dea33fc6",
-      "tipo": "Criatura",
-      "typeLine": "Legendary Creature — Human Rogue",
-      "image": "https://cards.scryfall.io/normal/front/2/1/21625c5c-7a9c-498d-afb6-ea57dea33fc6.jpg?1783910681",
-      "imageSmall": "https://cards.scryfall.io/small/front/2/1/21625c5c-7a9c-498d-afb6-ea57dea33fc6.jpg?1783910681",
-      "scryfallUri": "https://scryfall.com/card/blc/177/tetsuko-umezawa-fugitive?utm_source=api",
-      "priceUsd": 0.39,
-      "priceUyu": 16,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/bloomburrow-commander-decks/tetsuko-umezawa-fugitive"
     },
     {
       "id": "392af78e-34d5-4b1b-8b29-0e702271e4d7:n",
@@ -44296,30 +43144,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/iconic-masters/thought-scour"
     },
     {
-      "id": "71b11bf4-35ab-4028-961f-5180a12dac82:n",
-      "name": "Thought Vessel",
-      "setCode": "DSC",
-      "setName": "Duskmourn: House of Horror Commander",
-      "collectorNumber": "256",
-      "color": [
-        "C"
-      ],
-      "manaValue": 2,
-      "rarity": "common",
-      "foil": false,
-      "quantity": 3,
-      "scryfallId": "71b11bf4-35ab-4028-961f-5180a12dac82",
-      "tipo": "Artefacto",
-      "typeLine": "Artifact",
-      "image": "https://cards.scryfall.io/normal/front/7/1/71b11bf4-35ab-4028-961f-5180a12dac82.jpg?1783909583",
-      "imageSmall": "https://cards.scryfall.io/small/front/7/1/71b11bf4-35ab-4028-961f-5180a12dac82.jpg?1783909583",
-      "scryfallUri": "https://scryfall.com/card/dsc/256/thought-vessel?utm_source=api",
-      "priceUsd": 3.99,
-      "priceUyu": 168,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/duskmourn-house-of-horror-commander-decks/thought-vessel"
-    },
-    {
       "id": "62d4f5fe-d83d-4508-819b-57784ea44fa4:n",
       "name": "Thought Vessel",
       "setCode": "LTC",
@@ -44342,6 +43166,30 @@
       "priceUyu": 189,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/the-lord-of-the-rings-tales-of-middle-earth-commander-decks/thought-vessel"
+    },
+    {
+      "id": "71b11bf4-35ab-4028-961f-5180a12dac82:n",
+      "name": "Thought Vessel",
+      "setCode": "DSC",
+      "setName": "Duskmourn: House of Horror Commander",
+      "collectorNumber": "256",
+      "color": [
+        "C"
+      ],
+      "manaValue": 2,
+      "rarity": "common",
+      "foil": false,
+      "quantity": 2,
+      "scryfallId": "71b11bf4-35ab-4028-961f-5180a12dac82",
+      "tipo": "Artefacto",
+      "typeLine": "Artifact",
+      "image": "https://cards.scryfall.io/normal/front/7/1/71b11bf4-35ab-4028-961f-5180a12dac82.jpg?1783909583",
+      "imageSmall": "https://cards.scryfall.io/small/front/7/1/71b11bf4-35ab-4028-961f-5180a12dac82.jpg?1783909583",
+      "scryfallUri": "https://scryfall.com/card/dsc/256/thought-vessel?utm_source=api",
+      "priceUsd": 3.99,
+      "priceUyu": 168,
+      "priceSource": "cardkingdom",
+      "ckUrl": "https://www.cardkingdom.com/mtg/duskmourn-house-of-horror-commander-decks/thought-vessel"
     },
     {
       "id": "6455b185-aa5e-45e1-951e-f6eef517daf2:n",
@@ -45759,7 +44607,7 @@
       "manaValue": 4,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 3,
+      "quantity": 2,
       "scryfallId": "04cfc84b-88ae-4fb8-b568-e0635e2a194a",
       "tipo": "Instantaneo",
       "typeLine": "Instant",
@@ -46477,30 +45325,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/wilds-of-eldraine/unruly-catapult"
     },
     {
-      "id": "2dc0bafd-debc-4b62-9fe0-56b4aad02484:n",
-      "name": "Unsubstantiate",
-      "setCode": "M21",
-      "setName": "Core Set 2021",
-      "collectorNumber": "82",
-      "color": [
-        "U"
-      ],
-      "manaValue": 2,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "2dc0bafd-debc-4b62-9fe0-56b4aad02484",
-      "tipo": "Instantaneo",
-      "typeLine": "Instant",
-      "image": "https://cards.scryfall.io/normal/front/2/d/2dc0bafd-debc-4b62-9fe0-56b4aad02484.jpg?1783930714",
-      "imageSmall": "https://cards.scryfall.io/small/front/2/d/2dc0bafd-debc-4b62-9fe0-56b4aad02484.jpg?1783930714",
-      "scryfallUri": "https://scryfall.com/card/m21/82/unsubstantiate?utm_source=api",
-      "priceUsd": 0.59,
-      "priceUyu": 25,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/core-set-2021/unsubstantiate"
-    },
-    {
       "id": "c3fd1a59-4ade-459f-90d2-1fc67d6d1384:n",
       "name": "Unwinding Clock",
       "setCode": "C18",
@@ -46937,30 +45761,6 @@
       "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/secrets-of-strixhaven-commander-decks/venerable-warsinger"
-    },
-    {
-      "id": "77e19416-aa6c-46f1-b247-a94da5d1a13a:n",
-      "name": "Venser, Shaper Savant",
-      "setCode": "2X2",
-      "setName": "Double Masters 2022",
-      "collectorNumber": "66",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "rare",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "77e19416-aa6c-46f1-b247-a94da5d1a13a",
-      "tipo": "Criatura",
-      "typeLine": "Legendary Creature — Human Wizard",
-      "image": "https://cards.scryfall.io/normal/front/7/7/77e19416-aa6c-46f1-b247-a94da5d1a13a.jpg?1783921909",
-      "imageSmall": "https://cards.scryfall.io/small/front/7/7/77e19416-aa6c-46f1-b247-a94da5d1a13a.jpg?1783921909",
-      "scryfallUri": "https://scryfall.com/card/2x2/66/venser-shaper-savant?utm_source=api",
-      "priceUsd": 1,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/double-masters-2022/venser-shaper-savant"
     },
     {
       "id": "e8fce06a-56f7-4d0c-b094-ff147fec8256:n",
@@ -47954,30 +46754,6 @@
       "ckUrl": "https://www.cardkingdom.com/mtg/murders-at-karlov-manor/warleaders-call"
     },
     {
-      "id": "dc468f97-08f7-4103-898f-b14fa61b99bc:n",
-      "name": "Wash Out",
-      "setCode": "2X2",
-      "setName": "Double Masters 2022",
-      "collectorNumber": "67",
-      "color": [
-        "U"
-      ],
-      "manaValue": 4,
-      "rarity": "uncommon",
-      "foil": false,
-      "quantity": 1,
-      "scryfallId": "dc468f97-08f7-4103-898f-b14fa61b99bc",
-      "tipo": "Conjuro",
-      "typeLine": "Sorcery",
-      "image": "https://cards.scryfall.io/normal/front/d/c/dc468f97-08f7-4103-898f-b14fa61b99bc.jpg?1783921909",
-      "imageSmall": "https://cards.scryfall.io/small/front/d/c/dc468f97-08f7-4103-898f-b14fa61b99bc.jpg?1783921909",
-      "scryfallUri": "https://scryfall.com/card/2x2/67/wash-out?utm_source=api",
-      "priceUsd": 0.99,
-      "priceUyu": 42,
-      "priceSource": "cardkingdom",
-      "ckUrl": "https://www.cardkingdom.com/mtg/double-masters-2022/wash-out"
-    },
-    {
       "id": "829bbc9b-9185-4d9b-8e4e-9f04ece48fff:n",
       "name": "Wasteland",
       "setCode": "LTC",
@@ -48376,7 +47152,7 @@
       "manaValue": 4,
       "rarity": "uncommon",
       "foil": false,
-      "quantity": 2,
+      "quantity": 1,
       "scryfallId": "3f2ddb63-e4d0-418e-9ec7-70add0ed06a8",
       "tipo": "Criatura",
       "typeLine": "Creature — Human Rogue Artificer",
@@ -48552,8 +47328,8 @@
       "image": "https://cards.scryfall.io/normal/front/d/f/dfe0daf8-43da-484b-baa1-76f8313c5a0c.jpg?1783922700",
       "imageSmall": "https://cards.scryfall.io/small/front/d/f/dfe0daf8-43da-484b-baa1-76f8313c5a0c.jpg?1783922700",
       "scryfallUri": "https://scryfall.com/card/clb/261/wilson-refined-grizzly?utm_source=api",
-      "priceUsd": 0.79,
-      "priceUyu": 33,
+      "priceUsd": 0.99,
+      "priceUyu": 42,
       "priceSource": "cardkingdom",
       "ckUrl": "https://www.cardkingdom.com/mtg/commander-legends-battle-for-baldurs-gate/wilson-refined-grizzly"
     },
