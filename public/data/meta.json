@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T16:47:17.943Z",
+  "generatedAt": "2026-09-18T16:15:57.740Z",
   "cotizacion": {
     "usdToUyu": 42,
     "fuente": "BROU (uy.dolarapi.com)",
-    "fecha": "2026-09-17",
+    "fecha": "2026-09-18",
     "stale": false
   },
   "totalCartas": 2011,
